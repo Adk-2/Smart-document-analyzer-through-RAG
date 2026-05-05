@@ -1,0 +1,14 @@
+AI ML introduction text.
+    Artificial Intelligence (AI) is a field of computer science that focuses on creating machines capable of performing tasks that typically require human intelligence. These tasks include learning from data, recognizing patterns, understanding natural language, and making decisions.
+
+Machine Learning (ML) is a subset of AI that enables systems to learn and improve automatically without being explicitly programmed. It uses algorithms and statistical models to analyze data and make predictions.
+
+Deep Learning is a specialized branch of Machine Learning that uses neural networks with many layers (hence “deep”) to model complex patterns in data. It is widely used in applications such as image recognition, speech processing, and natural language understanding.
+
+Natural Language Processing (NLP) is a domain of AI that deals with the interaction between computers and human language. It enables machines to read, understand, and generate human language in a meaningful way.
+
+Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with text generation. Instead of relying only on a model’s internal knowledge, RAG retrieves relevant documents from a database and uses them to generate more accurate and up-to-date responses.
+
+Vector databases are used in RAG systems to store embeddings, which are numerical representations of text. These embeddings help in finding similar pieces of information quickly using similarity search.
+
+Applications of RAG include document question answering, chatbots, recommendation systems, and knowledge assistants like NotebookLM.
