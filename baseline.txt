@@ -1,0 +1,1046 @@
+Retrieving from workspace: default_workspace
+Using collection: default_workspace
+Loading embeddings from cache...
+['general', 'general', 'general', None, 'general', 'general', 'general', 'introduction']
+
+===== RETRIEVED DOCS =====
+
+DOC 1
+{'subject': '(unspecified)', 'author': '(anonymous)', 'creator': '(unspecified)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'total_pages': 3, 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '2', 'section': 'general', 'source': 'Attention_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'keywords': '', 'title': '(anonymous)', 'page': 1, 'trapped': '/False', 'score': 0.5916953173369222, 'rerank_score': 7.947726249694824}
+and semantic connections. Each head focuses on a different aspect of the input, and their outputs are combined to form a richer representation. Attention mechanisms are widely used in tasks such as machine translation, text summarization, sentiment analysis, and question answering. They also play a key role in computer vision, where they help models focus on important regions of an image.
+
+DOC 2
+{'moddate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'trapped': '/False', 'title': '(anonymous)', 'subject': '(unspecified)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '3', 'page': 2, 'total_pages': 3, 'source': 'Attention_2000.pdf', 'creator': '(unspecified)', 'keywords': '', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'score': 0.5159840430521431, 'rerank_score': 7.377868175506592}
+Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the model?s decision-making process. In summary, the attention mechanism has revolutionized deep learning by enabling models to process information more efficiently and effectively. It has become a fundamental building block in modern AI systems and continues to drive innovation across various domains.
+
+DOC 3
+{'source': 'Attention_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'creator': '(unspecified)', 'page': 0, 'creationdate': '2026-05-01T16:23:24+00:00', 'total_pages': 3, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'section': 'general', 'page_label': '1', 'keywords': '', 'trapped': '/False', 'subject': '(unspecified)', 'author': '(anonymous)', 'score': 0.5689512221068871, 'rerank_score': 2.7192459106445312}
+the process. Attention provides a solution by allowing the model to dynamically focus on different parts of the input sequence during processing. At its core, attention works by computing relationships between elements of a sequence. It involves three main components: queries, keys, and values. A query is compared with a set of keys to produce similarity scores, which are then normalized using a softmax function. These scores are
+
+DOC 4
+{'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'rerank_score': 2.350654125213623}
+graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series information. Transformer architectures introduced attention mechanisms that allow neural networks to model long-range dependencies in data and have the basis of large language models . [ 4 ] [ AI-generated?
+
+DOC 5
+{'section': 'general', 'source': '48 laws of power pdf.pdf', 'page': 71, 'producer': 'PyPDF', 'creator': 'PyPDF', 'total_pages': 476, 'creationdate': '', 'page_label': '72', 'rerank_score': -6.901330947875977}
+on dreir fleeting attention. I m a g e : The Limelight. The actor who steps into this bxil? liant light attains a heightened presence. All eyes are on him. There is room for only one actor at a time in the limelight?s narrow beam; do what- ever it takes to make yourself its focus. Make your gestures so large, amus- ing, and scandalous that the light stays on you while the other actors are left in the shadows. Authority: Be ostentatious and be seen. . . . What is not seen is
+
+DOC 6
+{'source': '48 laws of power pdf.pdf', 'page': 203, 'total_pages': 476, 'section': 'general', 'creationdate': '', 'creator': 'PyPDF', 'producer': 'PyPDF', 'page_label': '204', 'rerank_score': -9.10244369506836}
+would commit great sins against beauty and decorum. You also need a mir- ror for your actions. This can sometimes come from other people telling you what they see in you, but that is not the most trustworthy method: Ybu must be the mirror, training your mind to try to see yourself as others see you. Are you acting too obsequious? Are you trying too hard to please? Do you seem desperate for attention, giving the impression that you are on the
+
+DOC 7
+{'total_pages': 476, 'producer': 'PyPDF', 'section': 'general', 'creationdate': '', 'source': '48 laws of power pdf.pdf', 'creator': 'PyPDF', 'page': 56, 'page_label': '57', 'rerank_score': -10.632488250732422}
+Your silence will make other people uncomfortable. Humans are machines of interpretation and explanation; they have to know what you are think? ing. When you carefully control what you reveal, they cannot pierce your intentions or your meaning.
+
+DOC 8
+{'page': 11, 'page_label': '12', 'source': 'C:\\Users\\ayush\\AppData\\Local\\Temp\\gradio\\b05b0cf45563f8773e6ff5b4ad9d089215f7aeddc3ab3ee464490f451fa367cb\\Sample intership report.pdf', 'creator': 'PyPDF', 'total_pages': 22, 'section': 'introduction', 'moddate': '2025-05-15T19:27:32+00:00', 'creationdate': '', 'producer': 'iLovePDF', 'rerank_score': -10.923828125}
+Software Developer Department of Intelligent Computing and Business Systems, SJEC, Mangaluru Page | 3 Chapter 2 About The Department 2.1 Introduction The MSI (Microsoft Installer) department at Semnox Solutions plays a vital role in delivering seamless deployment mechanisms for the company?s suite of enterprise software. As a cornerstone of the software
+
+==========================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: raw_retrieval
+Query: What are attention mechanisms?
+Vector collection count: 5294
+Retrieved chunk count: 8
+Chunk 1
+Source: Attention_2000.pdf
+Page: 1
+Score: 0.5916953173369222
+Distance: 0.6900590062141418
+Metadata: {'subject': '(unspecified)', 'author': '(anonymous)', 'creator': '(unspecified)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'total_pages': 3, 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '2', 'section': 'general', 'source': 'Attention_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'keywords': '', 'title': '(anonymous)', 'page': 1, 'trapped': '/False', 'score': 0.5916953173369222, 'rerank_score': 7.947726249694824}
+Preview: and semantic connections. Each head focuses on a different aspect of the input, and their outputs are combined to form a richer representation. Attention mechanisms are widely used in tasks such as machine translation, text summarization, sentiment analysis, and question answering. They also play a 
+Chunk 2
+Source: Attention_2000.pdf
+Page: 2
+Score: 0.5159840430521431
+Distance: 0.9380444288253784
+Metadata: {'moddate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'trapped': '/False', 'title': '(anonymous)', 'subject': '(unspecified)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '3', 'page': 2, 'total_pages': 3, 'source': 'Attention_2000.pdf', 'creator': '(unspecified)', 'keywords': '', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'score': 0.5159840430521431, 'rerank_score': 7.377868175506592}
+Preview: Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the model?s decision-making process. In summary, the attention mechanism has revolutionized deep learning
+Chunk 3
+Source: Attention_2000.pdf
+Page: 0
+Score: 0.5689512221068871
+Distance: 0.7576199173927307
+Metadata: {'source': 'Attention_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'creator': '(unspecified)', 'page': 0, 'creationdate': '2026-05-01T16:23:24+00:00', 'total_pages': 3, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'section': 'general', 'page_label': '1', 'keywords': '', 'trapped': '/False', 'subject': '(unspecified)', 'author': '(anonymous)', 'score': 0.5689512221068871, 'rerank_score': 2.7192459106445312}
+Preview: the process. Attention provides a solution by allowing the model to dynamically focus on different parts of the input sequence during processing. At its core, attention works by computing relationships between elements of a sequence. It involves three main components: queries, keys, and values. A qu
+Chunk 4
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: None
+Distance: None
+Metadata: {'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'rerank_score': 2.350654125213623}
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series informa
+Chunk 5
+Source: 48 laws of power pdf.pdf
+Page: 71
+Score: None
+Distance: None
+Metadata: {'section': 'general', 'source': '48 laws of power pdf.pdf', 'page': 71, 'producer': 'PyPDF', 'creator': 'PyPDF', 'total_pages': 476, 'creationdate': '', 'page_label': '72', 'rerank_score': -6.901330947875977}
+Preview: on dreir fleeting attention. I m a g e : The Limelight. The actor who steps into this bxil? liant light attains a heightened presence. All eyes are on him. There is room for only one actor at a time in the limelight?s narrow beam; do what- ever it takes to make yourself its focus. Make your gestures
+Chunk 6
+Source: 48 laws of power pdf.pdf
+Page: 203
+Score: None
+Distance: None
+Metadata: {'source': '48 laws of power pdf.pdf', 'page': 203, 'total_pages': 476, 'section': 'general', 'creationdate': '', 'creator': 'PyPDF', 'producer': 'PyPDF', 'page_label': '204', 'rerank_score': -9.10244369506836}
+Preview: would commit great sins against beauty and decorum. You also need a mir- ror for your actions. This can sometimes come from other people telling you what they see in you, but that is not the most trustworthy method: Ybu must be the mirror, training your mind to try to see yourself as others see you.
+Chunk 7
+Source: 48 laws of power pdf.pdf
+Page: 56
+Score: None
+Distance: None
+Metadata: {'total_pages': 476, 'producer': 'PyPDF', 'section': 'general', 'creationdate': '', 'source': '48 laws of power pdf.pdf', 'creator': 'PyPDF', 'page': 56, 'page_label': '57', 'rerank_score': -10.632488250732422}
+Preview: Your silence will make other people uncomfortable. Humans are machines of interpretation and explanation; they have to know what you are think? ing. When you carefully control what you reveal, they cannot pierce your intentions or your meaning.
+Chunk 8
+Source: C:\Users\ayush\AppData\Local\Temp\gradio\b05b0cf45563f8773e6ff5b4ad9d089215f7aeddc3ab3ee464490f451fa367cb\Sample intership report.pdf
+Page: 11
+Score: None
+Distance: None
+Metadata: {'page': 11, 'page_label': '12', 'source': 'C:\\Users\\ayush\\AppData\\Local\\Temp\\gradio\\b05b0cf45563f8773e6ff5b4ad9d089215f7aeddc3ab3ee464490f451fa367cb\\Sample intership report.pdf', 'creator': 'PyPDF', 'total_pages': 22, 'section': 'introduction', 'moddate': '2025-05-15T19:27:32+00:00', 'creationdate': '', 'producer': 'iLovePDF', 'rerank_score': -10.923828125}
+Preview: Software Developer Department of Intelligent Computing and Business Systems, SJEC, Mangaluru Page | 3 Chapter 2 About The Department 2.1 Introduction The MSI (Microsoft Installer) department at Semnox Solutions plays a vital role in delivering seamless deployment mechanisms for the company?s suite o
+=====================================
+===== RAG FILTER DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Query keywords: ['attention', 'mechanisms']
+Threshold: 0.1
+Input chunks: 8
+Passed chunks: 7
+Failed chunks: 1
+Chunk 1 passed=True overlap=1.0
+Matched keywords: ['attention', 'mechanisms']
+Source: Attention_2000.pdf
+Preview: and semantic connections. Each head focuses on a different aspect of the input, and their outputs are combined to form a richer representation. Attention mechanisms are widely used in tasks such as ma
+Chunk 2 passed=True overlap=0.5
+Matched keywords: ['attention']
+Source: Attention_2000.pdf
+Preview: Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the m
+Chunk 3 passed=True overlap=0.5
+Matched keywords: ['attention']
+Source: Attention_2000.pdf
+Preview: the process. Attention provides a solution by allowing the model to dynamically focus on different parts of the input sequence during processing. At its core, attention works by computing relationship
+Chunk 4 passed=True overlap=1.0
+Matched keywords: ['attention', 'mechanisms']
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurre
+Chunk 5 passed=True overlap=0.5
+Matched keywords: ['attention']
+Source: 48 laws of power pdf.pdf
+Preview: on dreir fleeting attention. I m a g e : The Limelight. The actor who steps into this bxil? liant light attains a heightened presence. All eyes are on him. There is room for only one actor at a time i
+Chunk 6 passed=True overlap=0.5
+Matched keywords: ['attention']
+Source: 48 laws of power pdf.pdf
+Preview: would commit great sins against beauty and decorum. You also need a mir- ror for your actions. This can sometimes come from other people telling you what they see in you, but that is not the most trus
+Chunk 7 passed=False overlap=0.0
+Matched keywords: []
+Source: 48 laws of power pdf.pdf
+Preview: Your silence will make other people uncomfortable. Humans are machines of interpretation and explanation; they have to know what you are think? ing. When you carefully control what you reveal, they ca
+Chunk 8 passed=True overlap=0.5
+Matched keywords: ['mechanisms']
+Source: C:\Users\ayush\AppData\Local\Temp\gradio\b05b0cf45563f8773e6ff5b4ad9d089215f7aeddc3ab3ee464490f451fa367cb\Sample intership report.pdf
+Preview: Software Developer Department of Intelligent Computing and Business Systems, SJEC, Mangaluru Page | 3 Chapter 2 About The Department 2.1 Introduction The MSI (Microsoft Installer) department at Semnox
+==================================
+===== RAG SOURCE ISOLATION =====
+Request ID: None
+Focus terms: ['attention', 'mechanism']
+Input chunks: 7
+Output chunks: 6
+Dominant source: Attention_2000.pdf
+Source isolation applied: False
+================================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: after_source_isolation
+Query: What are attention mechanisms?
+Vector collection count: 5294
+Retrieved chunk count: 6
+Chunk 1
+Source: Attention_2000.pdf
+Page: 1
+Score: 0.5916953173369222
+Distance: 0.6900590062141418
+Metadata: {'subject': '(unspecified)', 'author': '(anonymous)', 'creator': '(unspecified)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'total_pages': 3, 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '2', 'section': 'general', 'source': 'Attention_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'keywords': '', 'title': '(anonymous)', 'page': 1, 'trapped': '/False', 'score': 0.5916953173369222, 'rerank_score': 7.947726249694824, 'topic_relevance': 1.0}
+Preview: and semantic connections. Each head focuses on a different aspect of the input, and their outputs are combined to form a richer representation. Attention mechanisms are widely used in tasks such as machine translation, text summarization, sentiment analysis, and question answering. They also play a 
+Chunk 2
+Source: Attention_2000.pdf
+Page: 2
+Score: 0.5159840430521431
+Distance: 0.9380444288253784
+Metadata: {'moddate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'trapped': '/False', 'title': '(anonymous)', 'subject': '(unspecified)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '3', 'page': 2, 'total_pages': 3, 'source': 'Attention_2000.pdf', 'creator': '(unspecified)', 'keywords': '', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'score': 0.5159840430521431, 'rerank_score': 7.377868175506592, 'topic_relevance': 1.0}
+Preview: Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the model?s decision-making process. In summary, the attention mechanism has revolutionized deep learning
+Chunk 3
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: None
+Distance: None
+Metadata: {'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'rerank_score': 2.350654125213623, 'topic_relevance': 1.0}
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series informa
+Chunk 4
+Source: Attention_2000.pdf
+Page: 0
+Score: 0.5689512221068871
+Distance: 0.7576199173927307
+Metadata: {'source': 'Attention_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'creator': '(unspecified)', 'page': 0, 'creationdate': '2026-05-01T16:23:24+00:00', 'total_pages': 3, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'section': 'general', 'page_label': '1', 'keywords': '', 'trapped': '/False', 'subject': '(unspecified)', 'author': '(anonymous)', 'score': 0.5689512221068871, 'rerank_score': 2.7192459106445312, 'topic_relevance': 0.5}
+Preview: the process. Attention provides a solution by allowing the model to dynamically focus on different parts of the input sequence during processing. At its core, attention works by computing relationships between elements of a sequence. It involves three main components: queries, keys, and values. A qu
+Chunk 5
+Source: 48 laws of power pdf.pdf
+Page: 71
+Score: None
+Distance: None
+Metadata: {'section': 'general', 'source': '48 laws of power pdf.pdf', 'page': 71, 'producer': 'PyPDF', 'creator': 'PyPDF', 'total_pages': 476, 'creationdate': '', 'page_label': '72', 'rerank_score': -6.901330947875977, 'topic_relevance': 0.5}
+Preview: on dreir fleeting attention. I m a g e : The Limelight. The actor who steps into this bxil? liant light attains a heightened presence. All eyes are on him. There is room for only one actor at a time in the limelight?s narrow beam; do what- ever it takes to make yourself its focus. Make your gestures
+Chunk 6
+Source: 48 laws of power pdf.pdf
+Page: 203
+Score: None
+Distance: None
+Metadata: {'source': '48 laws of power pdf.pdf', 'page': 203, 'total_pages': 476, 'section': 'general', 'creationdate': '', 'creator': 'PyPDF', 'producer': 'PyPDF', 'page_label': '204', 'rerank_score': -9.10244369506836, 'topic_relevance': 0.5}
+Preview: would commit great sins against beauty and decorum. You also need a mir- ror for your actions. This can sometimes come from other people telling you what they see in you, but that is not the most trustworthy method: Ybu must be the mirror, training your mind to try to see yourself as others see you.
+=====================================
+Context length: 2821 characters
+===== RAG SEMANTIC GROUNDING =====
+Request ID: None
+Workspace: default_workspace
+Passed: True
+Reason: context_contains_alias_or_term_evidence
+Retrieval confidence: 0.5916953173369222
+Grounding confidence: 1.0
+Matched terms: ['attention', 'mechanism']
+Missing terms: []
+Term evidence: [{'term': 'attention', 'aliases': ['attention'], 'matched_aliases': ['attention'], 'matched': True}, {'term': 'mechanism', 'aliases': ['mechanism'], 'matched_aliases': ['mechanism'], 'matched': True}]
+==================================
+Retrieving from workspace: default_workspace
+Using collection: default_workspace
+Loading embeddings from cache...
+['general', 'general', None, 'general', 'general', 'general', None, 'general']
+
+===== RETRIEVED DOCS =====
+
+DOC 1
+{'trapped': '/False', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'creationdate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'page_label': '2', 'total_pages': 3, 'subject': '(unspecified)', 'page': 1, 'keywords': '', 'section': 'general', 'creator': '(unspecified)', 'source': 'Attention_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'title': '(anonymous)', 'score': 0.5728750355630725, 'rerank_score': 5.58297872543335}
+emphasizes the most relevant parts of the input. There are different types of attention mechanisms, including additive attention and dot-product attention. However, the most powerful form is self-attention, where each element in a sequence attends to all other elements. This allows the model to capture long-range dependencies efficiently. Self-attention is the backbone of transformer architectures, which have replaced RNNs in many applications.
+
+DOC 2
+{'trapped': '/False', 'keywords': '', 'subject': '(unspecified)', 'moddate': '2026-05-01T16:23:24+00:00', 'title': '(anonymous)', 'creator': '(unspecified)', 'page': 0, 'creationdate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'author': '(anonymous)', 'total_pages': 3, 'page_label': '1', 'source': 'Attention_2000.pdf', 'score': 0.5432234627810916, 'rerank_score': 2.34739089012146}
+produce similarity scores, which are then normalized using a softmax function. These scores are used to compute a weighted sum of the values. The result is a context-aware representation that emphasizes the most relevant parts of the input. There are different types of attention mechanisms, including additive attention and dot-product attention. However, the most powerful form is self-attention, where each element in a sequence
+
+DOC 3
+{'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'title': 'Neural network (machine learning) - Wikipedia', 'type': 'webpage', 'score': 0.4855580957847316, 'rerank_score': -4.858609676361084}
+[ 64 ] [ 65 ] used direct recurrent connections from the output to the supervisor (teaching) inputs. In addition to computing actions (decisions), it computed internal state evaluations (emotions) of consequence situations. Eliminating the external supervisor, it introduced the self-learning method in neural networks. In cognitive psychology, the American Psychologist journal in the early 1980s debated the relation between cognition and emotion. Social psychologist Robert Zajonc
+
+DOC 4
+{'producer': 'PyPDF', 'creator': 'PyPDF', 'creationdate': '', 'page': 396, 'source': '48 laws of power pdf.pdf', 'total_pages': 476, 'section': 'general', 'page_label': '397', 'score': 0.47402871983152745, 'rerank_score': -5.6645894050598145}
+3 7'4 LAW 43 strongest motive of all: A great cause may capture minds, but once the firs: flush of excitement is over, interest will flag--unless there is something to be gained. Self-interest is the solider foundation. The causes that work best use a noble veneer to cover a blatant appeal to self-interest; the cause se- duces but the self-interest secures the deal. The people who are best at appealing to people?s minds are often
+
+DOC 5
+{'producer': 'PyPDF', 'section': 'general', 'page': 400, 'creator': 'PyPDF', 'creationdate': '', 'page_label': '401', 'total_pages': 476, 'source': '48 laws of power pdf.pdf', 'score': 0.4831478127598106, 'rerank_score': -6.612580299377441}
+self into a kind of mirror image. Your ability to reflect their psyche gives you great power over them; they may even feel a tinge of love. This is simply the ability to mimic another person not physically, but psychologically, and it is immensely powerful because it plays upon the unsatisfied se1f?love of a child. Normally, people bombard us with their ex- periences, their tastes. They hardly ever make the effort to see things
+
+DOC 6
+{'creationdate': '', 'section': 'general', 'page': 218, 'producer': 'PyPDF', 'source': '48 laws of power pdf.pdf', 'creator': 'PyPDF', 'total_pages': 476, 'page_label': '219', 'rerank_score': -7.202162742614746}
+image in Western society were artists and writers, and later on dandies and bohemians. Today the concept of selflcreation has slowly filtered down to the rest of society, and has become an ideal to aspire to. Like Velazquez, you must demand for yourself the power to determine your position in the painting, and to create your own image. The first step in the process of self?creation is self-consciousness- being aware of yourself as an actor and taking control of your appearance
+
+DOC 7
+{'title': 'Neural network (machine learning) - Wikipedia', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'type': 'webpage', 'rerank_score': -7.275461196899414}
+(1990) applied RNN to study cognitive psychology . [ citation needed ] In the 1980s, backpropagation did not work well for deep RNNs. In 1991, J?rgen Schmidhuber proposed the "neural sequence chunker" or "neural history compressor" [ 69 ] [ 70 ] which introduced self-supervised pre-training (the "P" in ChatGPT ) and neural knowledge distillation . [ 7 ] In 1993, a neural history compressor system solved a "Very Deep Learning" task that required more than 1000 layers in an RNN unfolded in time.
+
+DOC 8
+{'total_pages': 476, 'source': '48 laws of power pdf.pdf', 'creationdate': '', 'producer': 'PyPDF', 'section': 'general', 'page': 395, 'creator': 'PyPDF', 'page_label': '396', 'rerank_score': -8.655131340026855}
+worked on one person will necessarily work on another. To find the key that will motivate them, first get them to open up. The more they talk, the more they reveal about their likes and dislikes--the handles and levers to move them with. The quickest way to secure people?s minds is by demonstrating, as simply as possible, how an action will benefit them. Self?interest is the LAW 43 ? 3'73
+
+==========================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: raw_retrieval
+Query: What is self-attention?
+Vector collection count: 5294
+Retrieved chunk count: 8
+Chunk 1
+Source: Attention_2000.pdf
+Page: 1
+Score: 0.5728750355630725
+Distance: 0.7455813884735107
+Metadata: {'trapped': '/False', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'creationdate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'page_label': '2', 'total_pages': 3, 'subject': '(unspecified)', 'page': 1, 'keywords': '', 'section': 'general', 'creator': '(unspecified)', 'source': 'Attention_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'title': '(anonymous)', 'score': 0.5728750355630725, 'rerank_score': 5.58297872543335}
+Preview: emphasizes the most relevant parts of the input. There are different types of attention mechanisms, including additive attention and dot-product attention. However, the most powerful form is self-attention, where each element in a sequence attends to all other elements. This allows the model to capt
+Chunk 2
+Source: Attention_2000.pdf
+Page: 0
+Score: 0.5432234627810916
+Distance: 0.840863049030304
+Metadata: {'trapped': '/False', 'keywords': '', 'subject': '(unspecified)', 'moddate': '2026-05-01T16:23:24+00:00', 'title': '(anonymous)', 'creator': '(unspecified)', 'page': 0, 'creationdate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'author': '(anonymous)', 'total_pages': 3, 'page_label': '1', 'source': 'Attention_2000.pdf', 'score': 0.5432234627810916, 'rerank_score': 2.34739089012146}
+Preview: produce similarity scores, which are then normalized using a softmax function. These scores are used to compute a weighted sum of the values. The result is a context-aware representation that emphasizes the most relevant parts of the input. There are different types of attention mechanisms, includin
+Chunk 3
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: 0.4855580957847316
+Distance: 1.0594857931137085
+Metadata: {'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'title': 'Neural network (machine learning) - Wikipedia', 'type': 'webpage', 'score': 0.4855580957847316, 'rerank_score': -4.858609676361084}
+Preview: [ 64 ] [ 65 ] used direct recurrent connections from the output to the supervisor (teaching) inputs. In addition to computing actions (decisions), it computed internal state evaluations (emotions) of consequence situations. Eliminating the external supervisor, it introduced the self-learning method 
+Chunk 4
+Source: 48 laws of power pdf.pdf
+Page: 396
+Score: 0.47402871983152745
+Distance: 1.1095768213272095
+Metadata: {'producer': 'PyPDF', 'creator': 'PyPDF', 'creationdate': '', 'page': 396, 'source': '48 laws of power pdf.pdf', 'total_pages': 476, 'section': 'general', 'page_label': '397', 'score': 0.47402871983152745, 'rerank_score': -5.6645894050598145}
+Preview: 3 7'4 LAW 43 strongest motive of all: A great cause may capture minds, but once the firs: flush of excitement is over, interest will flag--unless there is something to be gained. Self-interest is the solider foundation. The causes that work best use a noble veneer to cover a blatant appeal to self-i
+Chunk 5
+Source: 48 laws of power pdf.pdf
+Page: 400
+Score: 0.4831478127598106
+Distance: 1.0697599649429321
+Metadata: {'producer': 'PyPDF', 'section': 'general', 'page': 400, 'creator': 'PyPDF', 'creationdate': '', 'page_label': '401', 'total_pages': 476, 'source': '48 laws of power pdf.pdf', 'score': 0.4831478127598106, 'rerank_score': -6.612580299377441}
+Preview: self into a kind of mirror image. Your ability to reflect their psyche gives you great power over them; they may even feel a tinge of love. This is simply the ability to mimic another person not physically, but psychologically, and it is immensely powerful because it plays upon the unsatisfied se1f?
+Chunk 6
+Source: 48 laws of power pdf.pdf
+Page: 218
+Score: None
+Distance: None
+Metadata: {'creationdate': '', 'section': 'general', 'page': 218, 'producer': 'PyPDF', 'source': '48 laws of power pdf.pdf', 'creator': 'PyPDF', 'total_pages': 476, 'page_label': '219', 'rerank_score': -7.202162742614746}
+Preview: image in Western society were artists and writers, and later on dandies and bohemians. Today the concept of selflcreation has slowly filtered down to the rest of society, and has become an ideal to aspire to. Like Velazquez, you must demand for yourself the power to determine your position in the pa
+Chunk 7
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: None
+Distance: None
+Metadata: {'title': 'Neural network (machine learning) - Wikipedia', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'type': 'webpage', 'rerank_score': -7.275461196899414}
+Preview: (1990) applied RNN to study cognitive psychology . [ citation needed ] In the 1980s, backpropagation did not work well for deep RNNs. In 1991, J?rgen Schmidhuber proposed the "neural sequence chunker" or "neural history compressor" [ 69 ] [ 70 ] which introduced self-supervised pre-training (the "P"
+Chunk 8
+Source: 48 laws of power pdf.pdf
+Page: 395
+Score: None
+Distance: None
+Metadata: {'total_pages': 476, 'source': '48 laws of power pdf.pdf', 'creationdate': '', 'producer': 'PyPDF', 'section': 'general', 'page': 395, 'creator': 'PyPDF', 'page_label': '396', 'rerank_score': -8.655131340026855}
+Preview: worked on one person will necessarily work on another. To find the key that will motivate them, first get them to open up. The more they talk, the more they reveal about their likes and dislikes--the handles and levers to move them with. The quickest way to secure people?s minds is by demonstrating,
+=====================================
+===== RAG FILTER DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Query keywords: ['self', 'attention']
+Threshold: 0.1
+Input chunks: 8
+Passed chunks: 8
+Failed chunks: 0
+Chunk 1 passed=True overlap=1.0
+Matched keywords: ['self', 'attention']
+Source: Attention_2000.pdf
+Preview: emphasizes the most relevant parts of the input. There are different types of attention mechanisms, including additive attention and dot-product attention. However, the most powerful form is self-atte
+Chunk 2 passed=True overlap=1.0
+Matched keywords: ['self', 'attention']
+Source: Attention_2000.pdf
+Preview: produce similarity scores, which are then normalized using a softmax function. These scores are used to compute a weighted sum of the values. The result is a context-aware representation that emphasiz
+Chunk 3 passed=True overlap=0.5
+Matched keywords: ['self']
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Preview: [ 64 ] [ 65 ] used direct recurrent connections from the output to the supervisor (teaching) inputs. In addition to computing actions (decisions), it computed internal state evaluations (emotions) of 
+Chunk 4 passed=True overlap=0.5
+Matched keywords: ['self']
+Source: 48 laws of power pdf.pdf
+Preview: 3 7'4 LAW 43 strongest motive of all: A great cause may capture minds, but once the firs: flush of excitement is over, interest will flag--unless there is something to be gained. Self-interest is the 
+Chunk 5 passed=True overlap=0.5
+Matched keywords: ['self']
+Source: 48 laws of power pdf.pdf
+Preview: self into a kind of mirror image. Your ability to reflect their psyche gives you great power over them; they may even feel a tinge of love. This is simply the ability to mimic another person not physi
+Chunk 6 passed=True overlap=0.5
+Matched keywords: ['self']
+Source: 48 laws of power pdf.pdf
+Preview: image in Western society were artists and writers, and later on dandies and bohemians. Today the concept of selflcreation has slowly filtered down to the rest of society, and has become an ideal to as
+Chunk 7 passed=True overlap=0.5
+Matched keywords: ['self']
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Preview: (1990) applied RNN to study cognitive psychology . [ citation needed ] In the 1980s, backpropagation did not work well for deep RNNs. In 1991, J?rgen Schmidhuber proposed the "neural sequence chunker"
+Chunk 8 passed=True overlap=0.5
+Matched keywords: ['self']
+Source: 48 laws of power pdf.pdf
+Preview: worked on one person will necessarily work on another. To find the key that will motivate them, first get them to open up. The more they talk, the more they reveal about their likes and dislikes--the 
+==================================
+===== RAG SOURCE ISOLATION =====
+Request ID: None
+Focus terms: ['self', 'attention']
+Input chunks: 8
+Output chunks: 6
+Dominant source: Attention_2000.pdf
+Source isolation applied: False
+================================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: after_source_isolation
+Query: What is self-attention?
+Vector collection count: 5294
+Retrieved chunk count: 6
+Chunk 1
+Source: Attention_2000.pdf
+Page: 1
+Score: 0.5728750355630725
+Distance: 0.7455813884735107
+Metadata: {'trapped': '/False', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'creationdate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'page_label': '2', 'total_pages': 3, 'subject': '(unspecified)', 'page': 1, 'keywords': '', 'section': 'general', 'creator': '(unspecified)', 'source': 'Attention_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'title': '(anonymous)', 'score': 0.5728750355630725, 'rerank_score': 5.58297872543335, 'topic_relevance': 1.0}
+Preview: emphasizes the most relevant parts of the input. There are different types of attention mechanisms, including additive attention and dot-product attention. However, the most powerful form is self-attention, where each element in a sequence attends to all other elements. This allows the model to capt
+Chunk 2
+Source: Attention_2000.pdf
+Page: 0
+Score: 0.5432234627810916
+Distance: 0.840863049030304
+Metadata: {'trapped': '/False', 'keywords': '', 'subject': '(unspecified)', 'moddate': '2026-05-01T16:23:24+00:00', 'title': '(anonymous)', 'creator': '(unspecified)', 'page': 0, 'creationdate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'author': '(anonymous)', 'total_pages': 3, 'page_label': '1', 'source': 'Attention_2000.pdf', 'score': 0.5432234627810916, 'rerank_score': 2.34739089012146, 'topic_relevance': 1.0}
+Preview: produce similarity scores, which are then normalized using a softmax function. These scores are used to compute a weighted sum of the values. The result is a context-aware representation that emphasizes the most relevant parts of the input. There are different types of attention mechanisms, includin
+Chunk 3
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: 0.4855580957847316
+Distance: 1.0594857931137085
+Metadata: {'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'title': 'Neural network (machine learning) - Wikipedia', 'type': 'webpage', 'score': 0.4855580957847316, 'rerank_score': -4.858609676361084, 'topic_relevance': 0.5}
+Preview: [ 64 ] [ 65 ] used direct recurrent connections from the output to the supervisor (teaching) inputs. In addition to computing actions (decisions), it computed internal state evaluations (emotions) of consequence situations. Eliminating the external supervisor, it introduced the self-learning method 
+Chunk 4
+Source: 48 laws of power pdf.pdf
+Page: 396
+Score: 0.47402871983152745
+Distance: 1.1095768213272095
+Metadata: {'producer': 'PyPDF', 'creator': 'PyPDF', 'creationdate': '', 'page': 396, 'source': '48 laws of power pdf.pdf', 'total_pages': 476, 'section': 'general', 'page_label': '397', 'score': 0.47402871983152745, 'rerank_score': -5.6645894050598145, 'topic_relevance': 0.5}
+Preview: 3 7'4 LAW 43 strongest motive of all: A great cause may capture minds, but once the firs: flush of excitement is over, interest will flag--unless there is something to be gained. Self-interest is the solider foundation. The causes that work best use a noble veneer to cover a blatant appeal to self-i
+Chunk 5
+Source: 48 laws of power pdf.pdf
+Page: 400
+Score: 0.4831478127598106
+Distance: 1.0697599649429321
+Metadata: {'producer': 'PyPDF', 'section': 'general', 'page': 400, 'creator': 'PyPDF', 'creationdate': '', 'page_label': '401', 'total_pages': 476, 'source': '48 laws of power pdf.pdf', 'score': 0.4831478127598106, 'rerank_score': -6.612580299377441, 'topic_relevance': 0.5}
+Preview: self into a kind of mirror image. Your ability to reflect their psyche gives you great power over them; they may even feel a tinge of love. This is simply the ability to mimic another person not physically, but psychologically, and it is immensely powerful because it plays upon the unsatisfied se1f?
+Chunk 6
+Source: 48 laws of power pdf.pdf
+Page: 218
+Score: None
+Distance: None
+Metadata: {'creationdate': '', 'section': 'general', 'page': 218, 'producer': 'PyPDF', 'source': '48 laws of power pdf.pdf', 'creator': 'PyPDF', 'total_pages': 476, 'page_label': '219', 'rerank_score': -7.202162742614746, 'topic_relevance': 0.5}
+Preview: image in Western society were artists and writers, and later on dandies and bohemians. Today the concept of selflcreation has slowly filtered down to the rest of society, and has become an ideal to aspire to. Like Velazquez, you must demand for yourself the power to determine your position in the pa
+=====================================
+Context length: 2784 characters
+===== RAG SEMANTIC GROUNDING =====
+Request ID: None
+Workspace: default_workspace
+Passed: True
+Reason: context_contains_alias_or_term_evidence
+Retrieval confidence: 0.5728750355630725
+Grounding confidence: 1.0
+Matched terms: ['self', 'attention']
+Missing terms: []
+Term evidence: [{'term': 'self', 'aliases': ['self'], 'matched_aliases': ['self'], 'matched': True}, {'term': 'attention', 'aliases': ['attention'], 'matched_aliases': ['attention'], 'matched': True}]
+==================================
+Retrieving from workspace: default_workspace
+Using collection: default_workspace
+Loading embeddings from cache...
+['general', 'general', None, 'general', 'general', 'general', None, 'general']
+
+===== RETRIEVED DOCS =====
+
+DOC 1
+{'creator': '(unspecified)', 'author': '(anonymous)', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'subject': '(unspecified)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page': 0, 'source': 'Attention_2000.pdf', 'total_pages': 3, 'trapped': '/False', 'keywords': '', 'title': '(anonymous)', 'moddate': '2026-05-01T16:23:24+00:00', 'page_label': '1', 'score': 0.68873233706735, 'rerank_score': 8.0249605178833}
+attends to all other elements. This allows the model to capture long-range dependencies efficiently. Self-attention is the backbone of transformer architectures, which have replaced RNNs in many applications. Transformers use multiple attention heads in parallel, a concept known as multi-head attention. This allows the model to capture different types of relationships simultaneously, such as syntactic
+
+DOC 2
+{'total_pages': 3, 'author': '(anonymous)', 'source': 'Attention_2000.pdf', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '2', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'keywords': '', 'title': '(anonymous)', 'subject': '(unspecified)', 'moddate': '2026-05-01T16:23:24+00:00', 'trapped': '/False', 'page': 1, 'section': 'general', 'creator': '(unspecified)', 'score': 0.6696797677047028, 'rerank_score': 6.8726091384887695}
+applications. Transformers use multiple attention heads in parallel, a concept known as multi-head attention. This allows the model to capture different types of relationships simultaneously, such as syntactic and semantic connections. Each head focuses on a different aspect of the input, and their outputs are combined to form a richer representation. Attention mechanisms are widely used in tasks such as machine translation, text summarization,
+
+DOC 3
+{'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'title': 'Neural network (machine learning) - Wikipedia', 'type': 'webpage', 'score': 0.4889115233362564, 'rerank_score': -1.6157095432281494}
+graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series information. Transformer architectures introduced attention mechanisms that allow neural networks to model long-range dependencies in data and have the basis of large language models . [ 4 ] [ AI-generated?
+
+DOC 4
+{'source': 'LLMs_2000.pdf', 'page_label': '1', 'trapped': '/False', 'section': 'general', 'keywords': '', 'creationdate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'total_pages': 2, 'subject': '(unspecified)', 'moddate': '2026-05-01T16:23:24+00:00', 'creator': '(unspecified)', 'page': 0, 'title': '(anonymous)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'score': 0.49504614991127527, 'rerank_score': -1.631157636642456}
+translation, and question answering. LLMs are typically built using transformer architectures, which rely heavily on self-attention mechanisms. During training, the model learns to predict the next word in a sequence given the previous context. This objective allows the model to capture grammar, semantics, and contextual relationships. One of the defining characteristics of LLMs is their scale. Modern models contain billions or even
+
+DOC 5
+{'source': 'Attention_2000.pdf', 'total_pages': 3, 'trapped': '/False', 'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creator': '(unspecified)', 'subject': '(unspecified)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'page': 2, 'keywords': '', 'author': '(anonymous)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '3', 'rerank_score': -8.287540435791016}
+Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the model?s decision-making process. In summary, the attention mechanism has revolutionized deep learning by enabling models to process information more efficiently and effectively. It has become a fundamental building block in modern AI systems and continues to drive innovation across various domains.
+
+DOC 6
+{'total_pages': 18, 'source': 'C:\\Users\\ayush\\AppData\\Local\\Temp\\gradio\\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\\Literature_survey.pdf', 'creator': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'title': 'SRS SignSerenade - Google Docs', 'section': 'general', 'creationdate': '2025-04-01T18:34:48+00:00', 'producer': 'Skia/PDF m134', 'moddate': '2025-04-01T18:34:48+00:00', 'page': 5, 'page_label': '6', 'rerank_score': -10.870447158813477}
+framework , and several key steps were followed during implementation: ? Network Architecture: The neural network architecture was designed to extract features from both the 2D image space and the 3D hand model. This includes convolutional layers that process hand shape and movement information in tandem. ? Performance Metrics: The model was evaluated using metrics such as accuracy , precision , and robustness , with the
+
+DOC 7
+{'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'rerank_score': -11.24111270904541}
+[ 63 ] The McCulloch and Pitts paper (1943) considered neural networks that contain cycles, and noted that the current activity of such networks can be affected by activity indefinitely far in the past. [ 9 ] In 1982 Crossbar Adaptive Array, a recurrent neural network with an array architecture (rather than a multilayer perceptron architecture), [ 64 ] [ 65 ]
+
+DOC 8
+{'section': 'general', 'source': '48 laws of power pdf.pdf', 'page': 71, 'producer': 'PyPDF', 'creator': 'PyPDF', 'total_pages': 476, 'creationdate': '', 'page_label': '72', 'rerank_score': -11.375754356384277}
+on dreir fleeting attention. I m a g e : The Limelight. The actor who steps into this bxil? liant light attains a heightened presence. All eyes are on him. There is room for only one actor at a time in the limelight?s narrow beam; do what- ever it takes to make yourself its focus. Make your gestures so large, amus- ing, and scandalous that the light stays on you while the other actors are left in the shadows. Authority: Be ostentatious and be seen. . . . What is not seen is
+
+==========================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: raw_retrieval
+Query: What are transformers?
+Vector collection count: 5294
+Retrieved chunk count: 8
+Chunk 1
+Source: Attention_2000.pdf
+Page: 0
+Score: 0.68873233706735
+Distance: 0.4519428610801697
+Metadata: {'creator': '(unspecified)', 'author': '(anonymous)', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'subject': '(unspecified)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page': 0, 'source': 'Attention_2000.pdf', 'total_pages': 3, 'trapped': '/False', 'keywords': '', 'title': '(anonymous)', 'moddate': '2026-05-01T16:23:24+00:00', 'page_label': '1', 'score': 0.68873233706735, 'rerank_score': 8.0249605178833}
+Preview: attends to all other elements. This allows the model to capture long-range dependencies efficiently. Self-attention is the backbone of transformer architectures, which have replaced RNNs in many applications. Transformers use multiple attention heads in parallel, a concept known as multi-head attent
+Chunk 2
+Source: Attention_2000.pdf
+Page: 1
+Score: 0.6696797677047028
+Distance: 0.4932510256767273
+Metadata: {'total_pages': 3, 'author': '(anonymous)', 'source': 'Attention_2000.pdf', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '2', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'keywords': '', 'title': '(anonymous)', 'subject': '(unspecified)', 'moddate': '2026-05-01T16:23:24+00:00', 'trapped': '/False', 'page': 1, 'section': 'general', 'creator': '(unspecified)', 'score': 0.6696797677047028, 'rerank_score': 6.8726091384887695}
+Preview: applications. Transformers use multiple attention heads in parallel, a concept known as multi-head attention. This allows the model to capture different types of relationships simultaneously, such as syntactic and semantic connections. Each head focuses on a different aspect of the input, and their 
+Chunk 3
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: 0.4889115233362564
+Distance: 1.0453598499298096
+Metadata: {'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'title': 'Neural network (machine learning) - Wikipedia', 'type': 'webpage', 'score': 0.4889115233362564, 'rerank_score': -1.6157095432281494}
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series informa
+Chunk 4
+Source: LLMs_2000.pdf
+Page: 0
+Score: 0.49504614991127527
+Distance: 1.020013689994812
+Metadata: {'source': 'LLMs_2000.pdf', 'page_label': '1', 'trapped': '/False', 'section': 'general', 'keywords': '', 'creationdate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'total_pages': 2, 'subject': '(unspecified)', 'moddate': '2026-05-01T16:23:24+00:00', 'creator': '(unspecified)', 'page': 0, 'title': '(anonymous)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'score': 0.49504614991127527, 'rerank_score': -1.631157636642456}
+Preview: translation, and question answering. LLMs are typically built using transformer architectures, which rely heavily on self-attention mechanisms. During training, the model learns to predict the next word in a sequence given the previous context. This objective allows the model to capture grammar, sem
+Chunk 5
+Source: Attention_2000.pdf
+Page: 2
+Score: None
+Distance: None
+Metadata: {'source': 'Attention_2000.pdf', 'total_pages': 3, 'trapped': '/False', 'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creator': '(unspecified)', 'subject': '(unspecified)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'page': 2, 'keywords': '', 'author': '(anonymous)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '3', 'rerank_score': -8.287540435791016}
+Preview: Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the model?s decision-making process. In summary, the attention mechanism has revolutionized deep learning
+Chunk 6
+Source: C:\Users\ayush\AppData\Local\Temp\gradio\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\Literature_survey.pdf
+Page: 5
+Score: None
+Distance: None
+Metadata: {'total_pages': 18, 'source': 'C:\\Users\\ayush\\AppData\\Local\\Temp\\gradio\\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\\Literature_survey.pdf', 'creator': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'title': 'SRS SignSerenade - Google Docs', 'section': 'general', 'creationdate': '2025-04-01T18:34:48+00:00', 'producer': 'Skia/PDF m134', 'moddate': '2025-04-01T18:34:48+00:00', 'page': 5, 'page_label': '6', 'rerank_score': -10.870447158813477}
+Preview: framework , and several key steps were followed during implementation: ? Network Architecture: The neural network architecture was designed to extract features from both the 2D image space and the 3D hand model. This includes convolutional layers that process hand shape and movement information in t
+Chunk 7
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: None
+Distance: None
+Metadata: {'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'rerank_score': -11.24111270904541}
+Preview: [ 63 ] The McCulloch and Pitts paper (1943) considered neural networks that contain cycles, and noted that the current activity of such networks can be affected by activity indefinitely far in the past. [ 9 ] In 1982 Crossbar Adaptive Array, a recurrent neural network with an array architecture (rat
+Chunk 8
+Source: 48 laws of power pdf.pdf
+Page: 71
+Score: None
+Distance: None
+Metadata: {'section': 'general', 'source': '48 laws of power pdf.pdf', 'page': 71, 'producer': 'PyPDF', 'creator': 'PyPDF', 'total_pages': 476, 'creationdate': '', 'page_label': '72', 'rerank_score': -11.375754356384277}
+Preview: on dreir fleeting attention. I m a g e : The Limelight. The actor who steps into this bxil? liant light attains a heightened presence. All eyes are on him. There is room for only one actor at a time in the limelight?s narrow beam; do what- ever it takes to make yourself its focus. Make your gestures
+=====================================
+===== RAG FILTER DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Query keywords: ['transformers']
+Threshold: 0.1
+Input chunks: 8
+Passed chunks: 2
+Failed chunks: 6
+Chunk 1 passed=True overlap=1.0
+Matched keywords: ['transformers']
+Source: Attention_2000.pdf
+Preview: attends to all other elements. This allows the model to capture long-range dependencies efficiently. Self-attention is the backbone of transformer architectures, which have replaced RNNs in many appli
+Chunk 2 passed=True overlap=1.0
+Matched keywords: ['transformers']
+Source: Attention_2000.pdf
+Preview: applications. Transformers use multiple attention heads in parallel, a concept known as multi-head attention. This allows the model to capture different types of relationships simultaneously, such as 
+Chunk 3 passed=False overlap=0.0
+Matched keywords: []
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurre
+Chunk 4 passed=False overlap=0.0
+Matched keywords: []
+Source: LLMs_2000.pdf
+Preview: translation, and question answering. LLMs are typically built using transformer architectures, which rely heavily on self-attention mechanisms. During training, the model learns to predict the next wo
+Chunk 5 passed=False overlap=0.0
+Matched keywords: []
+Source: Attention_2000.pdf
+Preview: Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the m
+Chunk 6 passed=False overlap=0.0
+Matched keywords: []
+Source: C:\Users\ayush\AppData\Local\Temp\gradio\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\Literature_survey.pdf
+Preview: framework , and several key steps were followed during implementation: ? Network Architecture: The neural network architecture was designed to extract features from both the 2D image space and the 3D 
+Chunk 7 passed=False overlap=0.0
+Matched keywords: []
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Preview: [ 63 ] The McCulloch and Pitts paper (1943) considered neural networks that contain cycles, and noted that the current activity of such networks can be affected by activity indefinitely far in the pas
+Chunk 8 passed=False overlap=0.0
+Matched keywords: []
+Source: 48 laws of power pdf.pdf
+Preview: on dreir fleeting attention. I m a g e : The Limelight. The actor who steps into this bxil? liant light attains a heightened presence. All eyes are on him. There is room for only one actor at a time i
+==================================
+===== RAG SOURCE ISOLATION =====
+Request ID: None
+Focus terms: ['transformer']
+Input chunks: 4
+Output chunks: 4
+Dominant source: Attention_2000.pdf
+Source isolation applied: False
+================================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: after_source_isolation
+Query: What are transformers?
+Vector collection count: 5294
+Retrieved chunk count: 4
+Chunk 1
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: 0.4889115233362564
+Distance: 1.0453598499298096
+Metadata: {'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'title': 'Neural network (machine learning) - Wikipedia', 'type': 'webpage', 'score': 0.4889115233362564, 'rerank_score': -1.6157095432281494, 'topic_relevance': 1.0}
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series informa
+Chunk 2
+Source: LLMs_2000.pdf
+Page: 0
+Score: 0.49504614991127527
+Distance: 1.020013689994812
+Metadata: {'source': 'LLMs_2000.pdf', 'page_label': '1', 'trapped': '/False', 'section': 'general', 'keywords': '', 'creationdate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'total_pages': 2, 'subject': '(unspecified)', 'moddate': '2026-05-01T16:23:24+00:00', 'creator': '(unspecified)', 'page': 0, 'title': '(anonymous)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'score': 0.49504614991127527, 'rerank_score': -1.631157636642456, 'topic_relevance': 1.0}
+Preview: translation, and question answering. LLMs are typically built using transformer architectures, which rely heavily on self-attention mechanisms. During training, the model learns to predict the next word in a sequence given the previous context. This objective allows the model to capture grammar, sem
+Chunk 3
+Source: Attention_2000.pdf
+Page: 0
+Score: 0.68873233706735
+Distance: 0.4519428610801697
+Metadata: {'creator': '(unspecified)', 'author': '(anonymous)', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'subject': '(unspecified)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page': 0, 'source': 'Attention_2000.pdf', 'total_pages': 3, 'trapped': '/False', 'keywords': '', 'title': '(anonymous)', 'moddate': '2026-05-01T16:23:24+00:00', 'page_label': '1', 'score': 0.68873233706735, 'rerank_score': 8.0249605178833, 'topic_relevance': 1.0}
+Preview: attends to all other elements. This allows the model to capture long-range dependencies efficiently. Self-attention is the backbone of transformer architectures, which have replaced RNNs in many applications. Transformers use multiple attention heads in parallel, a concept known as multi-head attent
+Chunk 4
+Source: Attention_2000.pdf
+Page: 1
+Score: 0.6696797677047028
+Distance: 0.4932510256767273
+Metadata: {'total_pages': 3, 'author': '(anonymous)', 'source': 'Attention_2000.pdf', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '2', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'keywords': '', 'title': '(anonymous)', 'subject': '(unspecified)', 'moddate': '2026-05-01T16:23:24+00:00', 'trapped': '/False', 'page': 1, 'section': 'general', 'creator': '(unspecified)', 'score': 0.6696797677047028, 'rerank_score': 6.8726091384887695, 'topic_relevance': 1.0}
+Preview: applications. Transformers use multiple attention heads in parallel, a concept known as multi-head attention. This allows the model to capture different types of relationships simultaneously, such as syntactic and semantic connections. Each head focuses on a different aspect of the input, and their 
+=====================================
+Context length: 1850 characters
+===== RAG SEMANTIC GROUNDING =====
+Request ID: None
+Workspace: default_workspace
+Passed: True
+Reason: context_contains_alias_or_term_evidence
+Retrieval confidence: 0.68873233706735
+Grounding confidence: 1.0
+Matched terms: ['transformer']
+Missing terms: []
+Term evidence: [{'term': 'transformer', 'aliases': ['transformer'], 'matched_aliases': ['transformer'], 'matched': True}]
+==================================
+Retrieving from workspace: default_workspace
+Using collection: default_workspace
+Loading embeddings from cache...
+['general', 'general', None, None, 'general', 'general', 'general', None]
+
+===== RETRIEVED DOCS =====
+
+DOC 1
+{'creator': '(unspecified)', 'page': 0, 'subject': '(unspecified)', 'total_pages': 2, 'trapped': '/False', 'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creationdate': '2026-05-01T16:23:24+00:00', 'keywords': '', 'source': 'GenAI_2000.pdf', 'title': '(anonymous)', 'author': '(anonymous)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'page_label': '1', 'score': 0.7215191022056043, 'rerank_score': 7.251084804534912}
+AI refers to artificial intelligence systems that can create new content such as text, images, audio, and video. These systems are designed to mimic human creativity by learning patterns from large datasets. Common techniques include transformer models, GANs, and diffusion models. These approaches enable the generation of realistic and high-quality outputs. Generative AI is used in a wide range of applications, including content creation, design,
+
+DOC 2
+{'source': 'GenAI_2000.pdf', 'page': 1, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'total_pages': 2, 'keywords': '', 'trapped': '/False', 'author': '(anonymous)', 'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creator': '(unspecified)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '2', 'subject': '(unspecified)', 'score': 0.7077349728848865, 'rerank_score': 6.809045791625977}
+Generative AI is rapidly evolving and is expected to play a major role in the future of technology. It represents a shift from traditional AI systems to more creative and interactive systems.Generative AI refers to artificial intelligence systems that can create new content such as text, images, audio, and video. These systems are designed to mimic human creativity by learning patterns from large datasets.
+
+DOC 3
+{'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'title': 'Neural network (machine learning) - Wikipedia', 'type': 'webpage', 'rerank_score': -2.108365058898926}
+large language models . [ 4 ] [ AI-generated? ] Artificial neural networks are used for a myriad of tasks including chatbots, large-scale text, image, and video generation, and robotics. Simplified example of training a neural network in object detection: The network is trained by multiple images that are known to depict starfish and sea urchins , which are correlated with "nodes" that represent visual features
+
+DOC 4
+{'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'rerank_score': -4.762934684753418}
+graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series information. Transformer architectures introduced attention mechanisms that allow neural networks to model long-range dependencies in data and have the basis of large language models . [ 4 ] [ AI-generated?
+
+DOC 5
+{'subject': '(unspecified)', 'title': '(anonymous)', 'creator': '(unspecified)', 'section': 'general', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '1', 'keywords': '', 'total_pages': 2, 'source': 'LLMs_2000.pdf', 'trapped': '/False', 'author': '(anonymous)', 'page': 0, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'moddate': '2026-05-01T16:23:24+00:00', 'rerank_score': -5.792984485626221}
+Despite their capabilities, LLMs have limitations. They can produce incorrect or biased outputs, especially when trained on imperfect data. They also require significant computational resources for training and deployment. Applications of LLMs are widespread, including chatbots, virtual assistants, content generation tools, and coding assistants. They are transforming industries by improving efficiency and enabling new forms of interaction.
+
+DOC 6
+{'creator': '(unspecified)', 'page_label': '2', 'title': '(anonymous)', 'keywords': '', 'moddate': '2026-05-01T16:23:24+00:00', 'trapped': '/False', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'author': '(anonymous)', 'section': 'general', 'source': 'Attention_2000.pdf', 'subject': '(unspecified)', 'total_pages': 3, 'page': 1, 'creationdate': '2026-05-01T16:23:24+00:00', 'rerank_score': -6.1013054847717285}
+process information more efficiently and effectively. It has become a fundamental building block in modern AI systems and continues to drive innovation across various domains.The attention mechanism is one of the most important innovations in modern artificial intelligence, especially in the field of deep learning and natural language processing. It was introduced to solve a major limitation of earlier models such as recurrent neural networks (RNNs) and long short-term memory
+
+DOC 7
+{'source': 'Attention_2000.pdf', 'total_pages': 3, 'trapped': '/False', 'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creator': '(unspecified)', 'subject': '(unspecified)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'page': 2, 'keywords': '', 'author': '(anonymous)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '3', 'rerank_score': -8.108049392700195}
+Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the model?s decision-making process. In summary, the attention mechanism has revolutionized deep learning by enabling models to process information more efficiently and effectively. It has become a fundamental building block in modern AI systems and continues to drive innovation across various domains.
+
+DOC 8
+{'source': 'https://en.wikipedia.org/wiki/Elon_Musk', 'type': 'webpage', 'title': 'Elon Musk - Wikipedia', 'rerank_score': -10.586799621582031}
+electric vehicles . In 2015, he co-founded OpenAI to advance artificial intelligence (AI) research, but later left; growing discontent with the organization's direction and leadership in the AI boom in the 2020s led him to establish xAI, which became a subsidiary of SpaceX in 2026. In 2022, he acquired the social network Twitter, implementing significant changes , and rebranding it as X in 2023. His other businesses include the neurotechnology company Neuralink
+
+==========================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: raw_retrieval
+Query: What is generative AI?
+Vector collection count: 5294
+Retrieved chunk count: 8
+Chunk 1
+Source: GenAI_2000.pdf
+Page: 0
+Score: 0.7215191022056043
+Distance: 0.38596469163894653
+Metadata: {'creator': '(unspecified)', 'page': 0, 'subject': '(unspecified)', 'total_pages': 2, 'trapped': '/False', 'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creationdate': '2026-05-01T16:23:24+00:00', 'keywords': '', 'source': 'GenAI_2000.pdf', 'title': '(anonymous)', 'author': '(anonymous)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'page_label': '1', 'score': 0.7215191022056043, 'rerank_score': 7.251084804534912}
+Preview: AI refers to artificial intelligence systems that can create new content such as text, images, audio, and video. These systems are designed to mimic human creativity by learning patterns from large datasets. Common techniques include transformer models, GANs, and diffusion models. These approaches e
+Chunk 2
+Source: GenAI_2000.pdf
+Page: 1
+Score: 0.7077349728848865
+Distance: 0.4129582941532135
+Metadata: {'source': 'GenAI_2000.pdf', 'page': 1, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'total_pages': 2, 'keywords': '', 'trapped': '/False', 'author': '(anonymous)', 'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creator': '(unspecified)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '2', 'subject': '(unspecified)', 'score': 0.7077349728848865, 'rerank_score': 6.809045791625977}
+Preview: Generative AI is rapidly evolving and is expected to play a major role in the future of technology. It represents a shift from traditional AI systems to more creative and interactive systems.Generative AI refers to artificial intelligence systems that can create new content such as text, images, aud
+Chunk 3
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: None
+Distance: None
+Metadata: {'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'title': 'Neural network (machine learning) - Wikipedia', 'type': 'webpage', 'rerank_score': -2.108365058898926}
+Preview: large language models . [ 4 ] [ AI-generated? ] Artificial neural networks are used for a myriad of tasks including chatbots, large-scale text, image, and video generation, and robotics. Simplified example of training a neural network in object detection: The network is trained by multiple images th
+Chunk 4
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: None
+Distance: None
+Metadata: {'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'rerank_score': -4.762934684753418}
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series informa
+Chunk 5
+Source: LLMs_2000.pdf
+Page: 0
+Score: None
+Distance: None
+Metadata: {'subject': '(unspecified)', 'title': '(anonymous)', 'creator': '(unspecified)', 'section': 'general', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '1', 'keywords': '', 'total_pages': 2, 'source': 'LLMs_2000.pdf', 'trapped': '/False', 'author': '(anonymous)', 'page': 0, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'moddate': '2026-05-01T16:23:24+00:00', 'rerank_score': -5.792984485626221}
+Preview: Despite their capabilities, LLMs have limitations. They can produce incorrect or biased outputs, especially when trained on imperfect data. They also require significant computational resources for training and deployment. Applications of LLMs are widespread, including chatbots, virtual assistants, 
+Chunk 6
+Source: Attention_2000.pdf
+Page: 1
+Score: None
+Distance: None
+Metadata: {'creator': '(unspecified)', 'page_label': '2', 'title': '(anonymous)', 'keywords': '', 'moddate': '2026-05-01T16:23:24+00:00', 'trapped': '/False', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'author': '(anonymous)', 'section': 'general', 'source': 'Attention_2000.pdf', 'subject': '(unspecified)', 'total_pages': 3, 'page': 1, 'creationdate': '2026-05-01T16:23:24+00:00', 'rerank_score': -6.1013054847717285}
+Preview: process information more efficiently and effectively. It has become a fundamental building block in modern AI systems and continues to drive innovation across various domains.The attention mechanism is one of the most important innovations in modern artificial intelligence, especially in the field o
+Chunk 7
+Source: Attention_2000.pdf
+Page: 2
+Score: None
+Distance: None
+Metadata: {'source': 'Attention_2000.pdf', 'total_pages': 3, 'trapped': '/False', 'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creator': '(unspecified)', 'subject': '(unspecified)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'page': 2, 'keywords': '', 'author': '(anonymous)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '3', 'rerank_score': -8.108049392700195}
+Preview: Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the model?s decision-making process. In summary, the attention mechanism has revolutionized deep learning
+Chunk 8
+Source: https://en.wikipedia.org/wiki/Elon_Musk
+Page: ?
+Score: None
+Distance: None
+Metadata: {'source': 'https://en.wikipedia.org/wiki/Elon_Musk', 'type': 'webpage', 'title': 'Elon Musk - Wikipedia', 'rerank_score': -10.586799621582031}
+Preview: electric vehicles . In 2015, he co-founded OpenAI to advance artificial intelligence (AI) research, but later left; growing discontent with the organization's direction and leadership in the AI boom in the 2020s led him to establish xAI, which became a subsidiary of SpaceX in 2026. In 2022, he acqui
+=====================================
+===== RAG FILTER DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Query keywords: ['generative', 'ai']
+Threshold: 0.1
+Input chunks: 8
+Passed chunks: 7
+Failed chunks: 1
+Chunk 1 passed=True overlap=1.0
+Matched keywords: ['generative', 'ai']
+Source: GenAI_2000.pdf
+Preview: AI refers to artificial intelligence systems that can create new content such as text, images, audio, and video. These systems are designed to mimic human creativity by learning patterns from large da
+Chunk 2 passed=True overlap=1.0
+Matched keywords: ['generative', 'ai']
+Source: GenAI_2000.pdf
+Preview: Generative AI is rapidly evolving and is expected to play a major role in the future of technology. It represents a shift from traditional AI systems to more creative and interactive systems.Generativ
+Chunk 3 passed=True overlap=0.5
+Matched keywords: ['ai']
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Preview: large language models . [ 4 ] [ AI-generated? ] Artificial neural networks are used for a myriad of tasks including chatbots, large-scale text, image, and video generation, and robotics. Simplified ex
+Chunk 4 passed=True overlap=0.5
+Matched keywords: ['ai']
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurre
+Chunk 5 passed=False overlap=0.0
+Matched keywords: []
+Source: LLMs_2000.pdf
+Preview: Despite their capabilities, LLMs have limitations. They can produce incorrect or biased outputs, especially when trained on imperfect data. They also require significant computational resources for tr
+Chunk 6 passed=True overlap=0.5
+Matched keywords: ['ai']
+Source: Attention_2000.pdf
+Preview: process information more efficiently and effectively. It has become a fundamental building block in modern AI systems and continues to drive innovation across various domains.The attention mechanism i
+Chunk 7 passed=True overlap=0.5
+Matched keywords: ['ai']
+Source: Attention_2000.pdf
+Preview: Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the m
+Chunk 8 passed=True overlap=0.5
+Matched keywords: ['ai']
+Source: https://en.wikipedia.org/wiki/Elon_Musk
+Preview: electric vehicles . In 2015, he co-founded OpenAI to advance artificial intelligence (AI) research, but later left; growing discontent with the organization's direction and leadership in the AI boom i
+==================================
+===== RAG SOURCE ISOLATION =====
+Request ID: None
+Focus terms: ['generative']
+Input chunks: 7
+Output chunks: 2
+Dominant source: GenAI_2000.pdf
+Source isolation applied: True
+================================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: after_source_isolation
+Query: What is generative AI?
+Vector collection count: 5294
+Retrieved chunk count: 2
+Chunk 1
+Source: GenAI_2000.pdf
+Page: 0
+Score: 0.7215191022056043
+Distance: 0.38596469163894653
+Metadata: {'creator': '(unspecified)', 'page': 0, 'subject': '(unspecified)', 'total_pages': 2, 'trapped': '/False', 'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creationdate': '2026-05-01T16:23:24+00:00', 'keywords': '', 'source': 'GenAI_2000.pdf', 'title': '(anonymous)', 'author': '(anonymous)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'page_label': '1', 'score': 0.7215191022056043, 'rerank_score': 7.251084804534912, 'topic_relevance': 1.0}
+Preview: AI refers to artificial intelligence systems that can create new content such as text, images, audio, and video. These systems are designed to mimic human creativity by learning patterns from large datasets. Common techniques include transformer models, GANs, and diffusion models. These approaches e
+Chunk 2
+Source: GenAI_2000.pdf
+Page: 1
+Score: 0.7077349728848865
+Distance: 0.4129582941532135
+Metadata: {'source': 'GenAI_2000.pdf', 'page': 1, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'total_pages': 2, 'keywords': '', 'trapped': '/False', 'author': '(anonymous)', 'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creator': '(unspecified)', 'creationdate': '2026-05-01T16:23:24+00:00', 'page_label': '2', 'subject': '(unspecified)', 'score': 0.7077349728848865, 'rerank_score': 6.809045791625977, 'topic_relevance': 1.0}
+Preview: Generative AI is rapidly evolving and is expected to play a major role in the future of technology. It represents a shift from traditional AI systems to more creative and interactive systems.Generative AI refers to artificial intelligence systems that can create new content such as text, images, aud
+=====================================
+Context length: 908 characters
+===== RAG SEMANTIC GROUNDING =====
+Request ID: None
+Workspace: default_workspace
+Passed: True
+Reason: context_contains_alias_or_term_evidence
+Retrieval confidence: 0.7215191022056043
+Grounding confidence: 1.0
+Matched terms: ['generative', 'ai']
+Missing terms: []
+Term evidence: [{'term': 'generative', 'aliases': ['generative'], 'matched_aliases': ['generative'], 'matched': True}, {'term': 'ai', 'aliases': ['ai', 'artificial intelligence'], 'matched_aliases': ['ai', 'artificial intelligence'], 'matched': True}]
+==================================
+Retrieving from workspace: default_workspace
+Using collection: default_workspace
+Loading embeddings from cache...
+['general', 'general', None, None, 'general', 'general', 'general', 'general']
+
+===== RETRIEVED DOCS =====
+
+DOC 1
+{'creationdate': '2026-05-01T16:23:24+00:00', 'trapped': '/False', 'author': '(anonymous)', 'page': 0, 'source': 'LLMs_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'total_pages': 2, 'title': '(anonymous)', 'keywords': '', 'creator': '(unspecified)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'section': 'general', 'subject': '(unspecified)', 'page_label': '1', 'score': 0.6447093016017114, 'rerank_score': 10.045040130615234}
+Large Language Models Large Language Models (LLMs) Large Language Models (LLMs) are a class of artificial intelligence systems designed to understand, generate, and manipulate human language. These models are trained on massive datasets containing text from books, websites, articles, and other sources. By learning patterns in language, LLMs can perform a wide range of tasks, including text generation, summarization, translation, and question answering.
+
+DOC 2
+{'section': 'general', 'total_pages': 2, 'page_label': '2', 'subject': '(unspecified)', 'creator': '(unspecified)', 'source': 'LLMs_2000.pdf', 'creationdate': '2026-05-01T16:23:24+00:00', 'title': '(anonymous)', 'author': '(anonymous)', 'trapped': '/False', 'keywords': '', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'moddate': '2026-05-01T16:23:24+00:00', 'page': 1, 'score': 0.6558551450151449, 'rerank_score': 8.954585075378418}
+understand and generate human language has opened up new possibilities for innovation and creativity.Large Language Models (LLMs) are a class of artificial intelligence systems designed to understand, generate, and manipulate human language. These models are trained on massive datasets containing text from books, websites, articles, and other sources. By learning patterns in language, LLMs can perform a wide range of tasks, including text generation, summarization,
+
+DOC 3
+{'type': 'webpage', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'title': 'Neural network (machine learning) - Wikipedia', 'score': 0.47693939448210654, 'rerank_score': 6.0296406745910645}
+large language models . [ 4 ] [ AI-generated? ] Artificial neural networks are used for a myriad of tasks including chatbots, large-scale text, image, and video generation, and robotics. Simplified example of training a neural network in object detection: The network is trained by multiple images that are known to depict starfish and sea urchins , which are correlated with "nodes" that represent visual features
+
+DOC 4
+{'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'rerank_score': 0.37638458609580994}
+graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series information. Transformer architectures introduced attention mechanisms that allow neural networks to model long-range dependencies in data and have the basis of large language models . [ 4 ] [ AI-generated?
+
+DOC 5
+{'creator': '(unspecified)', 'keywords': '', 'section': 'general', 'trapped': '/False', 'source': 'Attention_2000.pdf', 'title': '(anonymous)', 'author': '(anonymous)', 'page_label': '1', 'creationdate': '2026-05-01T16:23:24+00:00', 'total_pages': 3, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'page': 0, 'subject': '(unspecified)', 'moddate': '2026-05-01T16:23:24+00:00', 'score': 0.4684765446137675, 'rerank_score': -4.9821062088012695}
+mechanism is one of the most important innovations in modern artificial intelligence, especially in the field of deep learning and natural language processing. It was introduced to solve a major limitation of earlier models such as recurrent neural networks (RNNs) and long short-term memory networks (LSTMs), which struggled to handle long sequences effectively. These traditional models attempted to encode an entire sequence into a fixed-size vector, often losing critical information in
+
+DOC 6
+{'author': '(anonymous)', 'creationdate': '2026-05-01T16:23:24+00:00', 'title': '(anonymous)', 'moddate': '2026-05-01T16:23:24+00:00', 'source': 'GenAI_2000.pdf', 'page': 1, 'creator': '(unspecified)', 'page_label': '2', 'subject': '(unspecified)', 'total_pages': 2, 'keywords': '', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'section': 'general', 'trapped': '/False', 'rerank_score': -5.290530681610107}
+datasets. Common techniques include transformer models, GANs, and diffusion models. These approaches enable the generation of realistic and high-quality outputs. Generative AI is used in a wide range of applications, including content creation, design, entertainment, and education. It allows users to generate text, create images, compose music, and even produce videos. One of the key advantages of generative AI is its ability to automate creative tasks. This can
+
+DOC 7
+{'page': 7, 'section': 'general', 'creationdate': '2025-04-01T18:34:48+00:00', 'title': 'SRS SignSerenade - Google Docs', 'moddate': '2025-04-01T18:34:48+00:00', 'producer': 'Skia/PDF m134', 'total_pages': 18, 'creator': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'page_label': '8', 'source': 'C:\\Users\\ayush\\AppData\\Local\\Temp\\gradio\\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\\Literature_survey.pdf', 'rerank_score': -6.276432037353516}
+integrating multimodal data to improve recognition accuracy. Future research should focus on developing more generalized models that can work across different sign languages and dialects. Department of Intelligent Computing & Business Systems 7 5 SignSerenade: Your Voice in Signs Title: ?Technological Solutions for Sign Language Recognition: A Scoping Review of Research Trends, Challenges, and Opportunities? Authors: B. Joksimoski et al. Year: 2022
+
+DOC 8
+{'page': 10, 'creator': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'total_pages': 18, 'creationdate': '2025-04-01T18:34:48+00:00', 'source': 'C:\\Users\\ayush\\AppData\\Local\\Temp\\gradio\\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\\Literature_survey.pdf', 'title': 'SRS SignSerenade - Google Docs', 'producer': 'Skia/PDF m134', 'section': 'general', 'page_label': '11', 'moddate': '2025-04-01T18:34:48+00:00', 'rerank_score': -7.321590423583984}
+Need for more signs and variations Hu et al. (2021) Hand-model-awa re approach Higher accuracy and robustness Integration with other modalities needed Nimisha & Jacob (2020) Review of existing methods Identified strengths and weaknesses of various approaches Need for more robust and scalable solutions Harati (2023) Literature review Importance of sign language in communication Need for user friendly systems Joksimoski et al.
+
+==========================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: raw_retrieval
+Query: What are large language models?
+Vector collection count: 5294
+Retrieved chunk count: 8
+Chunk 1
+Source: LLMs_2000.pdf
+Page: 0
+Score: 0.6447093016017114
+Distance: 0.5510866641998291
+Metadata: {'creationdate': '2026-05-01T16:23:24+00:00', 'trapped': '/False', 'author': '(anonymous)', 'page': 0, 'source': 'LLMs_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'total_pages': 2, 'title': '(anonymous)', 'keywords': '', 'creator': '(unspecified)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'section': 'general', 'subject': '(unspecified)', 'page_label': '1', 'score': 0.6447093016017114, 'rerank_score': 10.045040130615234}
+Preview: Large Language Models Large Language Models (LLMs) Large Language Models (LLMs) are a class of artificial intelligence systems designed to understand, generate, and manipulate human language. These models are trained on massive datasets containing text from books, websites, articles, and other sourc
+Chunk 2
+Source: LLMs_2000.pdf
+Page: 1
+Score: 0.6558551450151449
+Distance: 0.524726927280426
+Metadata: {'section': 'general', 'total_pages': 2, 'page_label': '2', 'subject': '(unspecified)', 'creator': '(unspecified)', 'source': 'LLMs_2000.pdf', 'creationdate': '2026-05-01T16:23:24+00:00', 'title': '(anonymous)', 'author': '(anonymous)', 'trapped': '/False', 'keywords': '', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'moddate': '2026-05-01T16:23:24+00:00', 'page': 1, 'score': 0.6558551450151449, 'rerank_score': 8.954585075378418}
+Preview: understand and generate human language has opened up new possibilities for innovation and creativity.Large Language Models (LLMs) are a class of artificial intelligence systems designed to understand, generate, and manipulate human language. These models are trained on massive datasets containing te
+Chunk 3
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: 0.47693939448210654
+Distance: 1.0967024564743042
+Metadata: {'type': 'webpage', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'title': 'Neural network (machine learning) - Wikipedia', 'score': 0.47693939448210654, 'rerank_score': 6.0296406745910645}
+Preview: large language models . [ 4 ] [ AI-generated? ] Artificial neural networks are used for a myriad of tasks including chatbots, large-scale text, image, and video generation, and robotics. Simplified example of training a neural network in object detection: The network is trained by multiple images th
+Chunk 4
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: None
+Distance: None
+Metadata: {'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'rerank_score': 0.37638458609580994}
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series informa
+Chunk 5
+Source: Attention_2000.pdf
+Page: 0
+Score: 0.4684765446137675
+Distance: 1.1345785856246948
+Metadata: {'creator': '(unspecified)', 'keywords': '', 'section': 'general', 'trapped': '/False', 'source': 'Attention_2000.pdf', 'title': '(anonymous)', 'author': '(anonymous)', 'page_label': '1', 'creationdate': '2026-05-01T16:23:24+00:00', 'total_pages': 3, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'page': 0, 'subject': '(unspecified)', 'moddate': '2026-05-01T16:23:24+00:00', 'score': 0.4684765446137675, 'rerank_score': -4.9821062088012695}
+Preview: mechanism is one of the most important innovations in modern artificial intelligence, especially in the field of deep learning and natural language processing. It was introduced to solve a major limitation of earlier models such as recurrent neural networks (RNNs) and long short-term memory networks
+Chunk 6
+Source: GenAI_2000.pdf
+Page: 1
+Score: None
+Distance: None
+Metadata: {'author': '(anonymous)', 'creationdate': '2026-05-01T16:23:24+00:00', 'title': '(anonymous)', 'moddate': '2026-05-01T16:23:24+00:00', 'source': 'GenAI_2000.pdf', 'page': 1, 'creator': '(unspecified)', 'page_label': '2', 'subject': '(unspecified)', 'total_pages': 2, 'keywords': '', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'section': 'general', 'trapped': '/False', 'rerank_score': -5.290530681610107}
+Preview: datasets. Common techniques include transformer models, GANs, and diffusion models. These approaches enable the generation of realistic and high-quality outputs. Generative AI is used in a wide range of applications, including content creation, design, entertainment, and education. It allows users t
+Chunk 7
+Source: C:\Users\ayush\AppData\Local\Temp\gradio\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\Literature_survey.pdf
+Page: 7
+Score: None
+Distance: None
+Metadata: {'page': 7, 'section': 'general', 'creationdate': '2025-04-01T18:34:48+00:00', 'title': 'SRS SignSerenade - Google Docs', 'moddate': '2025-04-01T18:34:48+00:00', 'producer': 'Skia/PDF m134', 'total_pages': 18, 'creator': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'page_label': '8', 'source': 'C:\\Users\\ayush\\AppData\\Local\\Temp\\gradio\\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\\Literature_survey.pdf', 'rerank_score': -6.276432037353516}
+Preview: integrating multimodal data to improve recognition accuracy. Future research should focus on developing more generalized models that can work across different sign languages and dialects. Department of Intelligent Computing & Business Systems 7 5 SignSerenade: Your Voice in Signs Title: ?Technologic
+Chunk 8
+Source: C:\Users\ayush\AppData\Local\Temp\gradio\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\Literature_survey.pdf
+Page: 10
+Score: None
+Distance: None
+Metadata: {'page': 10, 'creator': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36', 'total_pages': 18, 'creationdate': '2025-04-01T18:34:48+00:00', 'source': 'C:\\Users\\ayush\\AppData\\Local\\Temp\\gradio\\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\\Literature_survey.pdf', 'title': 'SRS SignSerenade - Google Docs', 'producer': 'Skia/PDF m134', 'section': 'general', 'page_label': '11', 'moddate': '2025-04-01T18:34:48+00:00', 'rerank_score': -7.321590423583984}
+Preview: Need for more signs and variations Hu et al. (2021) Hand-model-awa re approach Higher accuracy and robustness Integration with other modalities needed Nimisha & Jacob (2020) Review of existing methods Identified strengths and weaknesses of various approaches Need for more robust and scalable solutio
+=====================================
+===== RAG FILTER DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Query keywords: ['large', 'language', 'models']
+Threshold: 0.1
+Input chunks: 8
+Passed chunks: 8
+Failed chunks: 0
+Chunk 1 passed=True overlap=1.0
+Matched keywords: ['large', 'language', 'models']
+Source: LLMs_2000.pdf
+Preview: Large Language Models Large Language Models (LLMs) Large Language Models (LLMs) are a class of artificial intelligence systems designed to understand, generate, and manipulate human language. These mo
+Chunk 2 passed=True overlap=1.0
+Matched keywords: ['large', 'language', 'models']
+Source: LLMs_2000.pdf
+Preview: understand and generate human language has opened up new possibilities for innovation and creativity.Large Language Models (LLMs) are a class of artificial intelligence systems designed to understand,
+Chunk 3 passed=True overlap=1.0
+Matched keywords: ['large', 'language', 'models']
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Preview: large language models . [ 4 ] [ AI-generated? ] Artificial neural networks are used for a myriad of tasks including chatbots, large-scale text, image, and video generation, and robotics. Simplified ex
+Chunk 4 passed=True overlap=1.0
+Matched keywords: ['large', 'language', 'models']
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurre
+Chunk 5 passed=True overlap=0.6666666666666666
+Matched keywords: ['language', 'models']
+Source: Attention_2000.pdf
+Preview: mechanism is one of the most important innovations in modern artificial intelligence, especially in the field of deep learning and natural language processing. It was introduced to solve a major limit
+Chunk 6 passed=True overlap=0.3333333333333333
+Matched keywords: ['models']
+Source: GenAI_2000.pdf
+Preview: datasets. Common techniques include transformer models, GANs, and diffusion models. These approaches enable the generation of realistic and high-quality outputs. Generative AI is used in a wide range 
+Chunk 7 passed=True overlap=0.6666666666666666
+Matched keywords: ['language', 'models']
+Source: C:\Users\ayush\AppData\Local\Temp\gradio\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\Literature_survey.pdf
+Preview: integrating multimodal data to improve recognition accuracy. Future research should focus on developing more generalized models that can work across different sign languages and dialects. Department o
+Chunk 8 passed=True overlap=0.3333333333333333
+Matched keywords: ['language']
+Source: C:\Users\ayush\AppData\Local\Temp\gradio\f37875c0ffda4b8117f9efc37c5741a5d9a7cd17f5c9eac56489d9efab13bcb8\Literature_survey.pdf
+Preview: Need for more signs and variations Hu et al. (2021) Hand-model-awa re approach Higher accuracy and robustness Integration with other modalities needed Nimisha & Jacob (2020) Review of existing methods
+==================================
+===== RAG SOURCE ISOLATION =====
+Request ID: None
+Focus terms: ['large', 'language']
+Input chunks: 8
+Output chunks: 4
+Dominant source: LLMs_2000.pdf
+Source isolation applied: False
+================================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: after_source_isolation
+Query: What are large language models?
+Vector collection count: 5294
+Retrieved chunk count: 4
+Chunk 1
+Source: LLMs_2000.pdf
+Page: 0
+Score: 0.6447093016017114
+Distance: 0.5510866641998291
+Metadata: {'creationdate': '2026-05-01T16:23:24+00:00', 'trapped': '/False', 'author': '(anonymous)', 'page': 0, 'source': 'LLMs_2000.pdf', 'moddate': '2026-05-01T16:23:24+00:00', 'total_pages': 2, 'title': '(anonymous)', 'keywords': '', 'creator': '(unspecified)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'section': 'general', 'subject': '(unspecified)', 'page_label': '1', 'score': 0.6447093016017114, 'rerank_score': 10.045040130615234, 'topic_relevance': 1.0}
+Preview: Large Language Models Large Language Models (LLMs) Large Language Models (LLMs) are a class of artificial intelligence systems designed to understand, generate, and manipulate human language. These models are trained on massive datasets containing text from books, websites, articles, and other sourc
+Chunk 2
+Source: LLMs_2000.pdf
+Page: 1
+Score: 0.6558551450151449
+Distance: 0.524726927280426
+Metadata: {'section': 'general', 'total_pages': 2, 'page_label': '2', 'subject': '(unspecified)', 'creator': '(unspecified)', 'source': 'LLMs_2000.pdf', 'creationdate': '2026-05-01T16:23:24+00:00', 'title': '(anonymous)', 'author': '(anonymous)', 'trapped': '/False', 'keywords': '', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'moddate': '2026-05-01T16:23:24+00:00', 'page': 1, 'score': 0.6558551450151449, 'rerank_score': 8.954585075378418, 'topic_relevance': 1.0}
+Preview: understand and generate human language has opened up new possibilities for innovation and creativity.Large Language Models (LLMs) are a class of artificial intelligence systems designed to understand, generate, and manipulate human language. These models are trained on massive datasets containing te
+Chunk 3
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: 0.47693939448210654
+Distance: 1.0967024564743042
+Metadata: {'type': 'webpage', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'title': 'Neural network (machine learning) - Wikipedia', 'score': 0.47693939448210654, 'rerank_score': 6.0296406745910645, 'topic_relevance': 1.0}
+Preview: large language models . [ 4 ] [ AI-generated? ] Artificial neural networks are used for a myriad of tasks including chatbots, large-scale text, image, and video generation, and robotics. Simplified example of training a neural network in object detection: The network is trained by multiple images th
+Chunk 4
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: None
+Distance: None
+Metadata: {'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'rerank_score': 0.37638458609580994, 'topic_relevance': 1.0}
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series informa
+=====================================
+Context length: 1901 characters
+===== RAG SEMANTIC GROUNDING =====
+Request ID: None
+Workspace: default_workspace
+Passed: True
+Reason: context_contains_alias_or_term_evidence
+Retrieval confidence: 0.6558551450151449
+Grounding confidence: 1.0
+Matched terms: ['large', 'language', 'model']
+Missing terms: []
+Term evidence: [{'term': 'large', 'aliases': ['large language model', 'large language models', 'llm'], 'matched_aliases': ['large language model', 'large language models'], 'matched': True}, {'term': 'language', 'aliases': ['large language model', 'large language models', 'llm'], 'matched_aliases': ['large language model', 'large language models'], 'matched': True}, {'term': 'model', 'aliases': ['large language model', 'large language models', 'llm'], 'matched_aliases': ['large language model', 'large language models'], 'matched': True}]
+==================================
+
+------------------------
+Question: What are attention mechanisms?
+Score: 0.63
+Answer: Attention mechanisms let neural networks dynamically focus on the most relevant parts of an input sequence or image. They do this by comparing **queries** with **keys** to produce similarity scores, n...
+
+------------------------
+Question: What is self-attention?
+Score: 0.73
+Answer: * *Self‑attention** is an attention mechanism in which every element of a sequence attends to every other element.
+It computes similarity scores between pairs of elements, normalizes those scores with...
+
+------------------------
+Question: What are transformers?
+Score: 0.66
+Answer: * *Transformers are neural‑network architectures that use self‑attention mechanisms to process sequences.**
+They replace recurrent layers with attention, enabling efficient modeling of long‑range depe...
+
+------------------------
+Question: What is generative AI?
+Score: 0.79
+Answer: Generative AI is a type of artificial intelligence that creates new content—such as text, images, audio, and video—by learning patterns from large datasets. It uses techniques like transformer models,...
+
+------------------------
+Question: What are large language models?
+Score: 0.75
+Answer: Large language models (LLMs) are AI systems that learn to understand, generate, and manipulate human language by training on massive text datasets. They can perform tasks such as text generation, summ...

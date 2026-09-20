@@ -1,0 +1,215 @@
+Retrieving from workspace: default_workspace
+Using collection: default_workspace
+Loading embeddings from cache...
+['general', 'general', 'general', None, 'general', 'general', 'general', 'introduction']
+
+===== RETRIEVED DOCS =====
+
+DOC 1
+{'moddate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'source': 'Attention_2000.pdf', 'total_pages': 3, 'page_label': '2', 'keywords': '', 'trapped': '/False', 'creator': '(unspecified)', 'subject': '(unspecified)', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'creationdate': '2026-05-01T16:23:24+00:00', 'page': 1, 'title': '(anonymous)', 'score': 0.5916953173369222, 'rerank_score': 7.947726249694824}
+and semantic connections. Each head focuses on a different aspect of the input, and their outputs are combined to form a richer representation. Attention mechanisms are widely used in tasks such as machine translation, text summarization, sentiment analysis, and question answering. They also play a key role in computer vision, where they help models focus on important regions of an image.
+
+DOC 2
+{'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creationdate': '2026-05-01T16:23:24+00:00', 'page': 2, 'page_label': '3', 'trapped': '/False', 'keywords': '', 'total_pages': 3, 'subject': '(unspecified)', 'source': 'Attention_2000.pdf', 'creator': '(unspecified)', 'title': '(anonymous)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'author': '(anonymous)', 'score': 0.5159840430521431, 'rerank_score': 7.377868175506592}
+Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the model?s decision-making process. In summary, the attention mechanism has revolutionized deep learning by enabling models to process information more efficiently and effectively. It has become a fundamental building block in modern AI systems and continues to drive innovation across various domains.
+
+DOC 3
+{'keywords': '', 'title': '(anonymous)', 'subject': '(unspecified)', 'total_pages': 3, 'source': 'Attention_2000.pdf', 'creationdate': '2026-05-01T16:23:24+00:00', 'moddate': '2026-05-01T16:23:24+00:00', 'page_label': '1', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'author': '(anonymous)', 'creator': '(unspecified)', 'page': 0, 'trapped': '/False', 'section': 'general', 'score': 0.5689512221068871, 'rerank_score': 2.7192459106445312}
+the process. Attention provides a solution by allowing the model to dynamically focus on different parts of the input sequence during processing. At its core, attention works by computing relationships between elements of a sequence. It involves three main components: queries, keys, and values. A query is compared with a set of keys to produce similarity scores, which are then normalized using a softmax function. These scores are
+
+DOC 4
+{'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'rerank_score': 2.350654125213623}
+graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series information. Transformer architectures introduced attention mechanisms that allow neural networks to model long-range dependencies in data and have the basis of large language models . [ 4 ] [ AI-generated?
+
+DOC 5
+{'producer': 'PyPDF', 'total_pages': 476, 'source': '48 laws of power pdf.pdf', 'page_label': '72', 'page': 71, 'creationdate': '', 'creator': 'PyPDF', 'section': 'general', 'rerank_score': -6.901330947875977}
+on dreir fleeting attention. I m a g e : The Limelight. The actor who steps into this bxil? liant light attains a heightened presence. All eyes are on him. There is room for only one actor at a time in the limelight?s narrow beam; do what- ever it takes to make yourself its focus. Make your gestures so large, amus- ing, and scandalous that the light stays on you while the other actors are left in the shadows. Authority: Be ostentatious and be seen. . . . What is not seen is
+
+DOC 6
+{'page': 203, 'creationdate': '', 'section': 'general', 'producer': 'PyPDF', 'source': '48 laws of power pdf.pdf', 'page_label': '204', 'creator': 'PyPDF', 'total_pages': 476, 'rerank_score': -9.10244369506836}
+would commit great sins against beauty and decorum. You also need a mir- ror for your actions. This can sometimes come from other people telling you what they see in you, but that is not the most trustworthy method: Ybu must be the mirror, training your mind to try to see yourself as others see you. Are you acting too obsequious? Are you trying too hard to please? Do you seem desperate for attention, giving the impression that you are on the
+
+DOC 7
+{'creationdate': '', 'section': 'general', 'page_label': '57', 'page': 56, 'total_pages': 476, 'creator': 'PyPDF', 'source': '48 laws of power pdf.pdf', 'producer': 'PyPDF', 'rerank_score': -10.632488250732422}
+Your silence will make other people uncomfortable. Humans are machines of interpretation and explanation; they have to know what you are think? ing. When you carefully control what you reveal, they cannot pierce your intentions or your meaning.
+
+DOC 8
+{'page_label': '12', 'moddate': '2025-05-15T19:27:32+00:00', 'total_pages': 22, 'creationdate': '', 'section': 'introduction', 'creator': 'PyPDF', 'page': 11, 'source': 'C:\\Users\\ayush\\AppData\\Local\\Temp\\gradio\\b05b0cf45563f8773e6ff5b4ad9d089215f7aeddc3ab3ee464490f451fa367cb\\Sample intership report.pdf', 'producer': 'iLovePDF', 'rerank_score': -10.923828125}
+Software Developer Department of Intelligent Computing and Business Systems, SJEC, Mangaluru Page | 3 Chapter 2 About The Department 2.1 Introduction The MSI (Microsoft Installer) department at Semnox Solutions plays a vital role in delivering seamless deployment mechanisms for the company?s suite of enterprise software. As a cornerstone of the software
+
+==========================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: raw_retrieval
+Query: What are attention mechanisms?
+Vector collection count: 5294
+Retrieved chunk count: 8
+Chunk 1
+Source: Attention_2000.pdf
+Page: 1
+Score: 0.5916953173369222
+Distance: 0.6900590062141418
+Metadata: {'moddate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'source': 'Attention_2000.pdf', 'total_pages': 3, 'page_label': '2', 'keywords': '', 'trapped': '/False', 'creator': '(unspecified)', 'subject': '(unspecified)', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'creationdate': '2026-05-01T16:23:24+00:00', 'page': 1, 'title': '(anonymous)', 'score': 0.5916953173369222, 'rerank_score': 7.947726249694824}
+Preview: and semantic connections. Each head focuses on a different aspect of the input, and their outputs are combined to form a richer representation. Attention mechanisms are widely used in tasks such as machine translation, text summarization, sentiment analysis, and question answering. They also play a 
+Chunk 2
+Source: Attention_2000.pdf
+Page: 2
+Score: 0.5159840430521431
+Distance: 0.9380444288253784
+Metadata: {'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creationdate': '2026-05-01T16:23:24+00:00', 'page': 2, 'page_label': '3', 'trapped': '/False', 'keywords': '', 'total_pages': 3, 'subject': '(unspecified)', 'source': 'Attention_2000.pdf', 'creator': '(unspecified)', 'title': '(anonymous)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'author': '(anonymous)', 'score': 0.5159840430521431, 'rerank_score': 7.377868175506592}
+Preview: Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the model?s decision-making process. In summary, the attention mechanism has revolutionized deep learning
+Chunk 3
+Source: Attention_2000.pdf
+Page: 0
+Score: 0.5689512221068871
+Distance: 0.7576199173927307
+Metadata: {'keywords': '', 'title': '(anonymous)', 'subject': '(unspecified)', 'total_pages': 3, 'source': 'Attention_2000.pdf', 'creationdate': '2026-05-01T16:23:24+00:00', 'moddate': '2026-05-01T16:23:24+00:00', 'page_label': '1', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'author': '(anonymous)', 'creator': '(unspecified)', 'page': 0, 'trapped': '/False', 'section': 'general', 'score': 0.5689512221068871, 'rerank_score': 2.7192459106445312}
+Preview: the process. Attention provides a solution by allowing the model to dynamically focus on different parts of the input sequence during processing. At its core, attention works by computing relationships between elements of a sequence. It involves three main components: queries, keys, and values. A qu
+Chunk 4
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: None
+Distance: None
+Metadata: {'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'rerank_score': 2.350654125213623}
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series informa
+Chunk 5
+Source: 48 laws of power pdf.pdf
+Page: 71
+Score: None
+Distance: None
+Metadata: {'producer': 'PyPDF', 'total_pages': 476, 'source': '48 laws of power pdf.pdf', 'page_label': '72', 'page': 71, 'creationdate': '', 'creator': 'PyPDF', 'section': 'general', 'rerank_score': -6.901330947875977}
+Preview: on dreir fleeting attention. I m a g e : The Limelight. The actor who steps into this bxil? liant light attains a heightened presence. All eyes are on him. There is room for only one actor at a time in the limelight?s narrow beam; do what- ever it takes to make yourself its focus. Make your gestures
+Chunk 6
+Source: 48 laws of power pdf.pdf
+Page: 203
+Score: None
+Distance: None
+Metadata: {'page': 203, 'creationdate': '', 'section': 'general', 'producer': 'PyPDF', 'source': '48 laws of power pdf.pdf', 'page_label': '204', 'creator': 'PyPDF', 'total_pages': 476, 'rerank_score': -9.10244369506836}
+Preview: would commit great sins against beauty and decorum. You also need a mir- ror for your actions. This can sometimes come from other people telling you what they see in you, but that is not the most trustworthy method: Ybu must be the mirror, training your mind to try to see yourself as others see you.
+Chunk 7
+Source: 48 laws of power pdf.pdf
+Page: 56
+Score: None
+Distance: None
+Metadata: {'creationdate': '', 'section': 'general', 'page_label': '57', 'page': 56, 'total_pages': 476, 'creator': 'PyPDF', 'source': '48 laws of power pdf.pdf', 'producer': 'PyPDF', 'rerank_score': -10.632488250732422}
+Preview: Your silence will make other people uncomfortable. Humans are machines of interpretation and explanation; they have to know what you are think? ing. When you carefully control what you reveal, they cannot pierce your intentions or your meaning.
+Chunk 8
+Source: C:\Users\ayush\AppData\Local\Temp\gradio\b05b0cf45563f8773e6ff5b4ad9d089215f7aeddc3ab3ee464490f451fa367cb\Sample intership report.pdf
+Page: 11
+Score: None
+Distance: None
+Metadata: {'page_label': '12', 'moddate': '2025-05-15T19:27:32+00:00', 'total_pages': 22, 'creationdate': '', 'section': 'introduction', 'creator': 'PyPDF', 'page': 11, 'source': 'C:\\Users\\ayush\\AppData\\Local\\Temp\\gradio\\b05b0cf45563f8773e6ff5b4ad9d089215f7aeddc3ab3ee464490f451fa367cb\\Sample intership report.pdf', 'producer': 'iLovePDF', 'rerank_score': -10.923828125}
+Preview: Software Developer Department of Intelligent Computing and Business Systems, SJEC, Mangaluru Page | 3 Chapter 2 About The Department 2.1 Introduction The MSI (Microsoft Installer) department at Semnox Solutions plays a vital role in delivering seamless deployment mechanisms for the company?s suite o
+=====================================
+===== RAG FILTER DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Query keywords: ['attention', 'mechanisms']
+Threshold: 0.1
+Input chunks: 8
+Passed chunks: 7
+Failed chunks: 1
+Chunk 1 passed=True overlap=1.0
+Matched keywords: ['attention', 'mechanisms']
+Source: Attention_2000.pdf
+Preview: and semantic connections. Each head focuses on a different aspect of the input, and their outputs are combined to form a richer representation. Attention mechanisms are widely used in tasks such as ma
+Chunk 2 passed=True overlap=0.5
+Matched keywords: ['attention']
+Source: Attention_2000.pdf
+Preview: Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the m
+Chunk 3 passed=True overlap=0.5
+Matched keywords: ['attention']
+Source: Attention_2000.pdf
+Preview: the process. Attention provides a solution by allowing the model to dynamically focus on different parts of the input sequence during processing. At its core, attention works by computing relationship
+Chunk 4 passed=True overlap=1.0
+Matched keywords: ['attention', 'mechanisms']
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurre
+Chunk 5 passed=True overlap=0.5
+Matched keywords: ['attention']
+Source: 48 laws of power pdf.pdf
+Preview: on dreir fleeting attention. I m a g e : The Limelight. The actor who steps into this bxil? liant light attains a heightened presence. All eyes are on him. There is room for only one actor at a time i
+Chunk 6 passed=True overlap=0.5
+Matched keywords: ['attention']
+Source: 48 laws of power pdf.pdf
+Preview: would commit great sins against beauty and decorum. You also need a mir- ror for your actions. This can sometimes come from other people telling you what they see in you, but that is not the most trus
+Chunk 7 passed=False overlap=0.0
+Matched keywords: []
+Source: 48 laws of power pdf.pdf
+Preview: Your silence will make other people uncomfortable. Humans are machines of interpretation and explanation; they have to know what you are think? ing. When you carefully control what you reveal, they ca
+Chunk 8 passed=True overlap=0.5
+Matched keywords: ['mechanisms']
+Source: C:\Users\ayush\AppData\Local\Temp\gradio\b05b0cf45563f8773e6ff5b4ad9d089215f7aeddc3ab3ee464490f451fa367cb\Sample intership report.pdf
+Preview: Software Developer Department of Intelligent Computing and Business Systems, SJEC, Mangaluru Page | 3 Chapter 2 About The Department 2.1 Introduction The MSI (Microsoft Installer) department at Semnox
+==================================
+===== RAG SOURCE ISOLATION =====
+Request ID: None
+Focus terms: ['attention', 'mechanism']
+Input chunks: 7
+Output chunks: 6
+Dominant source: Attention_2000.pdf
+Source isolation applied: False
+================================
+===== RAG RETRIEVAL DIAGNOSTICS =====
+Request ID: None
+Workspace: default_workspace
+Stage: after_source_isolation
+Query: What are attention mechanisms?
+Vector collection count: 5294
+Retrieved chunk count: 6
+Chunk 1
+Source: Attention_2000.pdf
+Page: 1
+Score: 0.5916953173369222
+Distance: 0.6900590062141418
+Metadata: {'moddate': '2026-05-01T16:23:24+00:00', 'author': '(anonymous)', 'source': 'Attention_2000.pdf', 'total_pages': 3, 'page_label': '2', 'keywords': '', 'trapped': '/False', 'creator': '(unspecified)', 'subject': '(unspecified)', 'section': 'general', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'creationdate': '2026-05-01T16:23:24+00:00', 'page': 1, 'title': '(anonymous)', 'score': 0.5916953173369222, 'rerank_score': 7.947726249694824, 'topic_relevance': 1.0}
+Preview: and semantic connections. Each head focuses on a different aspect of the input, and their outputs are combined to form a richer representation. Attention mechanisms are widely used in tasks such as machine translation, text summarization, sentiment analysis, and question answering. They also play a 
+Chunk 2
+Source: Attention_2000.pdf
+Page: 2
+Score: 0.5159840430521431
+Distance: 0.9380444288253784
+Metadata: {'moddate': '2026-05-01T16:23:24+00:00', 'section': 'general', 'creationdate': '2026-05-01T16:23:24+00:00', 'page': 2, 'page_label': '3', 'trapped': '/False', 'keywords': '', 'total_pages': 3, 'subject': '(unspecified)', 'source': 'Attention_2000.pdf', 'creator': '(unspecified)', 'title': '(anonymous)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'author': '(anonymous)', 'score': 0.5159840430521431, 'rerank_score': 7.377868175506592, 'topic_relevance': 1.0}
+Preview: Another advantage of attention is interpretability. By examining attention weights, researchers can understand which parts of the input the model considers important. This provides insights into the model?s decision-making process. In summary, the attention mechanism has revolutionized deep learning
+Chunk 3
+Source: https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+Page: ?
+Score: None
+Distance: None
+Metadata: {'source': 'https://en.wikipedia.org/wiki/Neural_network_(machine_learning)', 'type': 'webpage', 'title': 'Neural network (machine learning) - Wikipedia', 'rerank_score': 2.350654125213623, 'topic_relevance': 1.0}
+Preview: graphics processing units (GPUs), and large datasets . Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series informa
+Chunk 4
+Source: Attention_2000.pdf
+Page: 0
+Score: 0.5689512221068871
+Distance: 0.7576199173927307
+Metadata: {'keywords': '', 'title': '(anonymous)', 'subject': '(unspecified)', 'total_pages': 3, 'source': 'Attention_2000.pdf', 'creationdate': '2026-05-01T16:23:24+00:00', 'moddate': '2026-05-01T16:23:24+00:00', 'page_label': '1', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'author': '(anonymous)', 'creator': '(unspecified)', 'page': 0, 'trapped': '/False', 'section': 'general', 'score': 0.5689512221068871, 'rerank_score': 2.7192459106445312, 'topic_relevance': 0.5}
+Preview: the process. Attention provides a solution by allowing the model to dynamically focus on different parts of the input sequence during processing. At its core, attention works by computing relationships between elements of a sequence. It involves three main components: queries, keys, and values. A qu
+Chunk 5
+Source: 48 laws of power pdf.pdf
+Page: 71
+Score: None
+Distance: None
+Metadata: {'producer': 'PyPDF', 'total_pages': 476, 'source': '48 laws of power pdf.pdf', 'page_label': '72', 'page': 71, 'creationdate': '', 'creator': 'PyPDF', 'section': 'general', 'rerank_score': -6.901330947875977, 'topic_relevance': 0.5}
+Preview: on dreir fleeting attention. I m a g e : The Limelight. The actor who steps into this bxil? liant light attains a heightened presence. All eyes are on him. There is room for only one actor at a time in the limelight?s narrow beam; do what- ever it takes to make yourself its focus. Make your gestures
+Chunk 6
+Source: 48 laws of power pdf.pdf
+Page: 203
+Score: None
+Distance: None
+Metadata: {'page': 203, 'creationdate': '', 'section': 'general', 'producer': 'PyPDF', 'source': '48 laws of power pdf.pdf', 'page_label': '204', 'creator': 'PyPDF', 'total_pages': 476, 'rerank_score': -9.10244369506836, 'topic_relevance': 0.5}
+Preview: would commit great sins against beauty and decorum. You also need a mir- ror for your actions. This can sometimes come from other people telling you what they see in you, but that is not the most trustworthy method: Ybu must be the mirror, training your mind to try to see yourself as others see you.
+=====================================
+Context length: 2821 characters
+===== RAG SEMANTIC GROUNDING =====
+Request ID: None
+Workspace: default_workspace
+Passed: True
+Reason: context_contains_alias_or_term_evidence
+Retrieval confidence: 0.5916953173369222
+Grounding confidence: 1.0
+Matched terms: ['attention', 'mechanism']
+Missing terms: []
+Term evidence: [{'term': 'attention', 'aliases': ['attention'], 'matched_aliases': ['attention'], 'matched': True}, {'term': 'mechanism', 'aliases': ['mechanism'], 'matched_aliases': ['mechanism'], 'matched': True}]
+==================================

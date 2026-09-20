@@ -1,0 +1,8 @@
+INFO:     Started server process [30100]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+'[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+Retrying in 1s [Retry 1/5].
+D:\Data Sciece Mastery\RAG Learnings\src\embeddings.py:50: RuntimeWarning: Embedding model unavailable; using deterministic fallback embeddings. Reason: Cannot send a request, as the client has been closed.
+  warnings.warn(

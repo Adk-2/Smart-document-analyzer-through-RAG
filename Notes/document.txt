@@ -1,0 +1,205 @@
+TASK: Refactor and modularize the RAG project into a clean src/ architecture WITHOUT changing functionality.
+
+Current project has duplicated logic inside notebooks and mixed responsibilities.
+
+Goal:
+Move all reusable logic into src/ modules.
+
+---
+
+# TARGET STRUCTURE
+
+Create this structure:
+
+project/
+├── src/
+│   ├── **init**.py
+│   ├── config.py
+│   ├── embeddings.py
+│   ├── vector_store.py
+│   ├── retriever.py
+│   ├── pipeline.py
+│   ├── utils.py
+│   └── rag_pipeline.py
+│
+├── notebooks/
+├── evaluation.py
+├── main.py
+
+---
+
+# STEP 1 — CREATE config.py
+
+Move all constants/configuration into:
+
+src/config.py
+
+Include:
+
+* embedding model names
+* chunk size
+* overlap
+* top_k
+* reranker model
+* paths
+
+Example:
+
+```python id="m0z1u3"
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+
+CHUNK_SIZE = 800
+CHUNK_OVERLAP = 150
+
+TOP_K = 8
+
+RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+```
+
+---
+
+# STEP 2 — CREATE embeddings.py
+
+Move:
+
+* EmbeddingManager
+* embedding generation logic
+
+into:
+
+src/embeddings.py
+
+---
+
+# STEP 3 — CREATE vector_store.py
+
+Move:
+
+* VectorStore
+* VectorStoreLoader
+* ChromaDB logic
+
+into:
+
+src/vector_store.py
+
+---
+
+# STEP 4 — CREATE retriever.py
+
+Move:
+
+* RAGRetriever
+* hybrid retrieval
+* BM25
+* MMR retrieval
+* reranking logic
+
+into:
+
+src/retriever.py
+
+---
+
+# STEP 5 — CREATE utils.py
+
+Move ALL helper functions into:
+
+src/utils.py
+
+Including:
+
+* deduplicate_docs_advanced
+* compress_context
+* filter_relevant_docs
+* get_document_text
+* get_source_names
+* preprocess_query
+
+IMPORTANT:
+No duplicate utility functions should remain in notebooks.
+
+---
+
+# STEP 6 — CREATE pipeline.py
+
+Move:
+
+* rag_simple
+* rag_advanced
+* AdvancedRAGPipeline
+
+into:
+
+src/pipeline.py
+
+---
+
+# STEP 7 — CREATE rag_pipeline.py
+
+This file should expose ONE clean function:
+
+```python id="cw7d7e"
+def answer_question(query, return_context=False):
+```
+
+This is the ONLY function evaluation.py should use.
+
+---
+
+# STEP 8 — UPDATE IMPORTS
+
+Replace notebook-local logic with imports:
+
+Example:
+
+```python id="yo3e5n"
+from src.retriever import RAGRetriever
+from src.pipeline import AdvancedRAGPipeline
+```
+
+---
+
+# STEP 9 — REMOVE DUPLICATED LOGIC
+
+After refactor:
+
+* notebooks should NOT redefine classes
+* notebooks should only orchestrate workflow
+
+---
+
+# STEP 10 — VERIFY SYSTEM STILL WORKS
+
+After refactor:
+
+These must still run successfully:
+
+```bash id="yvt4u6"
+python evaluation.py
+```
+
+and
+
+```bash id="exw23f"
+python main.py
+```
+
+---
+
+IMPORTANT RULES
+
+* Do NOT change retrieval behavior
+* Do NOT change embeddings
+* Do NOT remove reranker
+* Preserve all current functionality
+* Focus ONLY on architecture cleanup
+
+---
+
+EXPECTED RESULT
+
+* clean modular architecture
+* no duplicated notebook code
+* reusable components
+* maintainable RAG system

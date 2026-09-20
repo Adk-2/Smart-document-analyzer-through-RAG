@@ -9,3 +9,12 @@ chromadb
 langchain-groq
 python-dotenv
 rank-bm25
+gradio
+beautifulsoup4
+requests
+readability-lxml
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+python-multipart
