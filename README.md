@@ -1,4 +1,4 @@
-# Smart Document Analyzer
+# Multi-Document Analyzer
 
 ### Retrieval-Augmented Generation for Grounded Document Intelligence
 
